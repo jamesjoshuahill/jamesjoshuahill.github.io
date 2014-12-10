@@ -24,6 +24,10 @@
     &:visited {
         color: $grey-color-dark;
     }
+
+    &:hover, &:active {
+        color: lighten($grey-color-dark, 30%);
+    }
 }
 
 .site-nav {

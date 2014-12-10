@@ -91,14 +91,19 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
+    transition: color .4s;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $brand-color;
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $highlight-color;
+    }
+
+    &:active {
+        transition: color .3s;
+        color: $highlight-color;
     }
 }
 
