@@ -4,6 +4,7 @@
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background-color: $brand-background-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -100,7 +101,7 @@
 }
 
 .footer-heading {
-    color: $grey-color;
+    color: $grey-color-dark;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
