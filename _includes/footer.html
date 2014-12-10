@@ -2,12 +2,13 @@
 
   <div class="wrapper">
 
+    <h2 class="footer-heading">{{ site.author }}</h2>
+
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.author }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+        <p class="text">
+          {{ site.description }}
+        </p>
       </div>
 
       <div class="footer-col  footer-col-2">
@@ -41,10 +42,6 @@
           </li>
           {% endif %}
         </ul>
-      </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
       </div>
     </div>
 
