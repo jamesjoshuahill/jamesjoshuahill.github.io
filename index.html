@@ -12,6 +12,10 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
+        <span class="post-intro">
+          {{ post.intro }}&#8230;
+        </span>
       </li>
     {% endfor %}
   </ul>
