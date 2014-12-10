@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Four vows"
+title: "Everyday thinking"
 date: 2014-12-09 11:44:18
 categories: zen
+intro: Keeping your audience interested is tricky if you sound religious, so I find it hard to discuss lessons and ideas from Zen without being misunderstood
 ---
 Keeping your audience interested is tricky if you sound religious, so I find it hard to discuss lessons and ideas from Zen without being misunderstood.
 
@@ -23,7 +24,7 @@ I went easy on delusion because Makers live in the unknown everyday; it's a key 
 
 As long as I find these four vows relevant I will revisit them everyday.
 
-What do you do everyday?
+What do you think everyday?
 
 [Chobo-Ji podcast]: https://itunes.apple.com/podcast/chobo-jis-podcast/id78149892
 [Makers Academy]: http://www.makersacademy.com
