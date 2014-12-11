@@ -4,14 +4,19 @@ layout: default
 
 <div class="home">
 
+  <h1 class="page-heading">Hi! I'm <strong>{{ site.author }}</strong> an aspiring software craftsman in London.</h1>
+
+
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%-d %B %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
+        <span class="post-meta">
+          {{ post.date | date: "%-d %B %Y" }}
+        </span>
 
         <span class="post-intro">
           {{ post.intro }}&#8230;
@@ -19,5 +24,28 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+  <h1 class="page-heading">Not what you expected?</h1>
+
+  <div class="did-you-mean">
+    <span>Did you mean:</span>
+
+    <ul>
+      <li>
+        <a href="http://www.autosport.com/news/report.php/id/108715" title="Josh Hill says he quit racing to pursue music career">Josh Hill</a>
+        the racing driver, son of Damon
+      </li>
+
+      <li>
+        <a href="http://joshhillmma.ca" title="'The Gentleman' Josh Hill Official Site">Josh "Gentleman" Hill</a>
+        the Canadian fighter
+      </li>
+
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Joshua_Hill_(Pitcairn_Island_leader)" title="Joshua Hill (Pitcairn Island Leader)">Joshua Hill</a>
+        the Pitcairn Island leader
+      </li>
+    </ul>
+  </div>
 
 </div>

@@ -170,11 +170,13 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 20pt;
 }
 
 .post-list {
     margin-left: 0;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit * 1.5;
     list-style: none;
 
     > li {
@@ -191,12 +193,39 @@
     color: $grey-color;
 }
 
-.post-link {
+.home .post-meta {
     display: block;
-    font-size: 24px;
 }
 
+.post-link {
+    display: block;
+    font-size: 20pt;
+}
 
+.did-you-mean {
+    padding: 0 0 0 15px;
+    font-size: $small-font-size;
+    border-left: 10px solid $brand-background-color;
+    margin-bottom: 15px;
+    max-width: 400pt;
+    @extend %clearfix;
+
+    span {
+        float: left;
+    }
+
+    ul {
+        float: left;
+        list-style: none;
+        margin-left: 10px;
+        margin-bottom: 0;
+
+        li a {
+            font-style: italic;
+            font-weight: bold;
+        }
+    }
+}
 
 /**
  * Posts
@@ -213,6 +242,10 @@
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.post-intro {
+    font-size: $small-font-size;
 }
 
 .post-content {
