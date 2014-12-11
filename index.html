@@ -16,6 +16,7 @@ layout: default
 
         <span class="post-meta">
           {{ post.date | date: "%-d %B %Y" }}
+          {% if post.meta %} • {{ post.meta }}{% endif %}
         </span>
 
         <span class="post-intro">

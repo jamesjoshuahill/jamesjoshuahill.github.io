@@ -10,8 +10,8 @@
     position: relative;
 
     @include media-query($on-laptop) {
-        border-bottom: 9pt solid $grey-color-light;
-        max-height: 27pt;
+        border-bottom: 12pt solid $grey-color-light;
+        max-height: 35pt;
     }
 }
 
@@ -26,7 +26,7 @@
 
     @include media-query($on-laptop) {
         font-size: 20pt;
-        line-height: 40pt;
+        line-height: 54pt;
     }
 
     &,
@@ -110,7 +110,7 @@
  */
 .site-footer {
     font-family: $title-font-family;
-    border-top: 6px solid $grey-color-light;
+    border-top: 16pt solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
