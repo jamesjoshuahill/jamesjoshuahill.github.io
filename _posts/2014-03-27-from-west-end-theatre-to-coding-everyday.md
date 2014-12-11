@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "Tech Talk: From West End theatre to coding everyday"
+meta: Originally posted on globaldev.co.uk
 categories: talk
-intro: "Last year I changed career and became a beginner again. As one of the
-first junior developers at globaldev my colleagues were curious about how I
-made the change"
 ---
 Last year I changed career and became a beginner again. As one of the first
 junior developers at [globaldev] my colleagues were curious about how I made

@@ -1,9 +1,7 @@
 ---
 layout: post
 title: "Everyday thinking"
-date: 2014-12-09 11:44:18
 categories: zen
-intro: Keeping your audience interested is tricky if you sound religious, so I find it hard to discuss lessons and ideas from Zen without being misunderstood
 ---
 Keeping your audience interested is tricky if you sound religious, so I find it hard to discuss lessons and ideas from Zen without being misunderstood.
 
