@@ -336,6 +336,6 @@ spot any mistakes, or room for improvement.
 
 ## Stay tuned
 
-[My next post]({{ site.baseurl }}/2014/07/22/optimising-calls-to-a-new-api-with-statsd-and-graphite.html)
+[My next post]({{ site.baseurl }}/2014/07/22/optimising-calls-to-a-new-api-with-statsd-and-graphite/)
 describes how we used StatsD and Graphite to monitor API requests and optimise
 our exponential back-off and retry mechanism.

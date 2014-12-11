@@ -12,7 +12,7 @@ intro: >
 
 Monitoring calls to third-party APIs can reveal interesting trends and alert
 you to problems. Following
-[my last post]({{ site.baseurl }}/2014/07/15/back-off-and-retry-with-rabbitmq.html), I describe how we
+[my last post]({{ site.baseurl }}/2014/07/15/back-off-and-retry-with-rabbitmq/), I describe how we
 used StatsD and Graphite to monitor calls to a new API and optimise an
 exponential back-off and retry mechanism.
 
@@ -51,7 +51,7 @@ API responses we saw over one week:
 
 This graph kicked off the development of the exponential back-off and retry
 mechanism I described in
-[my last post]({{ site.baseurl }}/2014/07/15/back-off-and-retry-with-rabbitmq.html).
+[my last post]({{ site.baseurl }}/2014/07/15/back-off-and-retry-with-rabbitmq/).
 
 ## Backing off just enough
 
