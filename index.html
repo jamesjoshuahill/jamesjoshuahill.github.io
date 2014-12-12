@@ -22,7 +22,7 @@ layout: default
           {{ post.date | date: "%-d %B %Y" }}
           {% if post.author %} • {{ post.author }}{% endif %}
           {% if post.meta %} • {{ post.meta }}{% endif %}
-          {% if post.source %} • Originally posted on <a href="{{ post.source }}">{{ post.source | domain_name }}</a>{% endif %}
+          {% if post.source %} • Originally posted on <a href="{{ post.source_url }}">{{ post.source }}</a>{% endif %}
         </span>
 
         <span class="post-excerpt">

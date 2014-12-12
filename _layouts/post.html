@@ -9,7 +9,7 @@ layout: default
       {{ page.date | date: "%-d %B %Y" }}
       {% if page.author %} • {{ page.author }}{% endif %}
       {% if page.meta %} • {{ page.meta }}{% endif %}
-      {% if page.source %} • Originally posted on <a href="{{ page.source }}">{{ page.source | domain_name }}</a>{% endif %}
+      {% if page.source %} • Originally posted on <a href="{{ page.source_url }}">{{ page.source }}</a>{% endif %}
     </p>
   </header>
 

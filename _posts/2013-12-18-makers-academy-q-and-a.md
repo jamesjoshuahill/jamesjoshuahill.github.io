@@ -2,7 +2,8 @@
 layout: post
 title: "Q&A about my time at Makers Academy"
 author: Ruben Kostucki
-source: http://blog.makersacademy.com/from-west-end-theatre-to-coding-everyday
+source: makersacademy.com
+source_url: http://blog.makersacademy.com/from-west-end-theatre-to-coding-everyday
 ---
 Josh graduated on the 8th of November and has signed a contract as a full-time junior web developer 4 weeks after graduation with [globaldev](http://globaldev.co.uk/).
 

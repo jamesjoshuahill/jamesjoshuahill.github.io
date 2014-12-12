@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Tech Talk: From West End theatre to coding everyday"
-source: http://globaldev.co.uk/2014/03/tech-talk-theatre-to-coder/
+source: globaldev.co.uk
+source_url: http://globaldev.co.uk/2014/03/tech-talk-theatre-to-coder/
 categories: talk
 ---
 <iframe src="//player.vimeo.com/video/114144583" width="100%" height="415" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
