@@ -171,6 +171,7 @@
 }
 
 .page-heading {
+    font-family: $title-font-family;
     font-size: 20pt;
 }
 
@@ -226,8 +227,9 @@ h2.page-heading {
 }
 
 .did-you-mean {
-    padding: 0 0 0 15px;
+    font-family: $title-font-family;
     font-size: $small-font-size;
+    padding: 0 0 0 15px;
     border-left: 10px solid $brand-background-color;
     margin-bottom: 15px;
     @extend %clearfix;
