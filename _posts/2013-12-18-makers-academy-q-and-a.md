@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Q&A about my time at Makers Academy"
+title: "Q&A after graudating from Makers Academy"
 author: Ruben Kostucki
 source: makersacademy.com
 source_url: http://blog.makersacademy.com/from-west-end-theatre-to-coding-everyday

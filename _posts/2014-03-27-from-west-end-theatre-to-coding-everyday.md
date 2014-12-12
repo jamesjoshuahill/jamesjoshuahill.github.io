@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tech Talk: From West End theatre to coding everyday"
+title: "Talk: From West End theatre to coding everyday"
 source: globaldev.co.uk
 source_url: http://globaldev.co.uk/2014/03/tech-talk-theatre-to-coder/
 categories: talk
