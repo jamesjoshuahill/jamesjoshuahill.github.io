@@ -11,22 +11,22 @@
 
     @include media-query($on-laptop) {
         border-bottom: 12pt solid $grey-color-light;
-        max-height: 35pt;
+        max-height: 40pt;
     }
 }
 
 .site-title {
     font-family: $title-font-family;
-    font-size: 36pt;
+    font-size: 46pt;
     font-weight: bold;
     font-style: italic;
-    line-height: 100pt;
+    line-height: 93pt;
     margin-bottom: 0;
     float: left;
 
     @include media-query($on-laptop) {
-        font-size: 20pt;
-        line-height: 54pt;
+        font-size: 28pt;
+        line-height: 60pt;
     }
 
     &,
@@ -171,12 +171,7 @@
 }
 
 .page-heading {
-    font-family: $title-font-family;
     font-size: 20pt;
-}
-
-h2.page-heading {
-    font-style: italic;
 }
 
 .post-list {
@@ -243,6 +238,7 @@ h2.page-heading {
         list-style: none;
         margin-left: 10px;
         margin-bottom: 0;
+        font-style: italic;
 
         li a {
             font-style: italic;
