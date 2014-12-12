@@ -116,10 +116,11 @@
 
 .footer-heading {
     color: $grey-color-dark;
-    font-size: 18px;
+    font-size: 20pt;
     font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    font-style: italic;
+    // letter-spacing: 1px;
+    // text-transform: uppercase;
     margin-bottom: $spacing-unit / 4;
 }
 
@@ -130,7 +131,7 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: 12pt;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -188,14 +189,13 @@
     }
 }
 
-.recent-posts {
+.related-posts {
     h2 {
         font-family: $title-font-family;
         font-weight: bold;
-        font-size: $small-font-size;
-        letter-spacing: 1px;
-        margin-bottom: 0;
-        text-transform: uppercase;
+        font-size: $base-font-size;
+        font-style: italic;
+        margin-bottom: 5px;
         color: $grey-color-dark;
     }
 
