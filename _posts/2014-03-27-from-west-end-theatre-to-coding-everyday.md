@@ -4,6 +4,8 @@ title: "Tech Talk: From West End theatre to coding everyday"
 source: http://globaldev.co.uk/2014/03/tech-talk-theatre-to-coder/
 categories: talk
 ---
+<iframe src="//player.vimeo.com/video/114144583" width="100%" height="415" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 Last year I changed career and became a beginner again. As one of the first
 junior developers at [globaldev] my colleagues were curious about how I made
 the change.
@@ -26,7 +28,7 @@ Changing career was worth the hard work. I love facing the new challenges,
 playing with ideas and the environment of mutual respect. Oh, and the new
 toys...retina MacBooks are beautiful :o)
 
-<iframe src="//player.vimeo.com/video/114144583" width="100%" height="415" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/42636269" width="100%" height="455" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 [globaldev]: http://globaldev.co.uk
 [Makers Academy]: http://www.makersacademy.com

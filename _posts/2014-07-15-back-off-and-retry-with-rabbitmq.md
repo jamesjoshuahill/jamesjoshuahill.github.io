@@ -302,23 +302,23 @@ If you compare this to the first diagram, I hope it will be clear how this
 mechanism can be used to extend existing consumers that call third-party APIs.
 In closing, here are brief answers to my opening questions:
 
-#### Will I need a consumer for messages on the wait queue?
+### Will I need a consumer for messages on the wait queue?
 No, let RabbitMQ do the work! Declare a wait queue with an
 `x-dead-letter-exchange` argument and RabbitMQ will republish the messages when
 they expire.
 
-#### Can I control how long each message waits before retrying?
+### Can I control how long each message waits before retrying?
 Yes. But per-message TTL can only be set when you publish a message. So your
 consumer has to make a copy of the message manually and publish it with an
 `expiration` field. NB: If you use acknowledgement don't forget to acknowledge
 the original message!
 
-#### Can I keep track of how many times we've tried an API request?
+### Can I keep track of how many times we've tried an API request?
 Yes. Every time a message is dead-lettered RabbitMQ records useful details in
 the message's `x-death` header. The first record in the array is the most
 recent and includes the `original-expiration`.
 
-#### Can I handle multiple platform events on the same wait queue?
+### Can I handle multiple platform events on the same wait queue?
 Yes. The easiest way to manage multiple routing keys is to declare a separate
 exchange for your wait queue. Then bind your wait queue to the same list of
 routing keys on the wait exchange.

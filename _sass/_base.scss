@@ -132,16 +132,16 @@ blockquote {
 pre,
 code {
     font-size: $code-font-size;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: $grey-color-light;
 }
 
 code {
-    padding: 1px 5px;
+    padding: 2px 6px;
+    background-color: $grey-color-light;
 }
 
 pre {
+    border: 1px solid $grey-color-light;
+    border-left: 4px solid $brand-background-color;
     padding: 8px 12px;
     overflow-x: scroll;
 
@@ -149,6 +149,7 @@ pre {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+        background-color: inherit;
     }
 }
 
