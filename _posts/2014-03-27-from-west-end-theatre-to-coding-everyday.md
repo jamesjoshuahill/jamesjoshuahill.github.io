@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Talk: From West End theatre to coding everyday"
-source: globaldev.co.uk
-source_url: http://globaldev.co.uk/2014/03/tech-talk-theatre-to-coder/
 categories: talk
 ---
 Last year I changed career and became a beginner again. As one of the first
