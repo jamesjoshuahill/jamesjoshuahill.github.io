@@ -201,6 +201,8 @@
 
     ul {
         font-size: $small-font-size;
+        font-family: $title-font-family;
+        font-style: italic;
         list-style: none;
         margin-left: 0;
         margin-bottom: 0;
@@ -210,15 +212,22 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    font-family: $title-font-family;
+    font-style: italic;
 }
 
 .home .post-meta {
     display: block;
+    font-size: $small-font-size;
+    margin-bottom: 5px;
 }
 
 .post-link {
     display: block;
-    font-size: 18pt;
+    font-size: 20pt;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .did-you-mean {
@@ -255,6 +264,9 @@
 }
 
 .post-title {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
@@ -262,10 +274,6 @@
     @include media-query($on-laptop) {
         font-size: 36px;
     }
-}
-
-.post-excerpt {
-    font-size: $small-font-size;
 }
 
 .post-content {
