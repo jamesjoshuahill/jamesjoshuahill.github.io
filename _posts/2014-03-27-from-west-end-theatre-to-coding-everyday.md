@@ -21,13 +21,13 @@ continue to inspire me today. I'm very thankful to them for giving me such a
 good foundation and showing me new ways to think.
 
 I feel like I've landed on my feet at [globaldev]. The whole team has welcomed
-me and I'm especially thankful to some of the more senior developers--Paul
-Bowsher, Michael Mazour, Jason Lambert and Mat Sadler--for answering my
+me and I'm especially thankful to some of the more senior developers&mdash;Paul
+Bowsher, Michael Mazour, Jason Lambert and Mat Sadler&mdash;for answering my
 questions carefully.
 
 Changing career was worth the hard work. I love facing the new challenges,
 playing with ideas and the environment of mutual respect. Oh, and the new
-toys...retina MacBooks are beautiful :o)
+toys&hellip;retina MacBooks are beautiful :o)
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/42636269" width="100%" height="455" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 

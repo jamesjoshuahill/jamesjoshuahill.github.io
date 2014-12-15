@@ -9,7 +9,7 @@ Josh graduated on the 8th of November and has signed a contract as a full-time j
 
 ### What were you doing before joining Makers Academy?
 
-I worked in theatre production, mostly on West End musicals including Matilda The Musical and Wicked The Musical. I worked for the producers and the work was not glamorous—mostly admin. I love a good spreadsheet for plans, budgets, contracts and schedules. Occasionally, I organised events and parties and rubbed shoulders with talented artists.
+I worked in theatre production, mostly on West End musicals including Matilda The Musical and Wicked The Musical. I worked for the producers and the work was not glamorous&mdash;mostly admin. I love a good spreadsheet for plans, budgets, contracts and schedules. Occasionally, I organised events and parties and rubbed shoulders with talented artists.
 
 ### What made you want to start learning to code in the first place?
 
@@ -41,4 +41,4 @@ Do it. I haven’t been so excited about going to work in years!
 
 ### Any other advice about interviewing for a dev role for all our graduates?
 
-Developers work with ideas and people, then they write code. The first two are much harder than writing code! The coding test is your chance to express yourself clearly in code and the interview is your chance to do the same in person. There is a lot written about teamwork… I aim to care for every person in the team. Genuine care is unmistakable.
+Developers work with ideas and people, then they write code. The first two are much harder than writing code! The coding test is your chance to express yourself clearly in code and the interview is your chance to do the same in person. There is a lot written about teamwork&hellip;I aim to care for every person in the team. Genuine care is unmistakable.
