@@ -3,6 +3,7 @@ layout: post
 title: "Optimising calls to a new API with StatsD and Graphite"
 source: globaldev.co.uk
 source_url: http://globaldev.co.uk/2014/07/optimising-calls-to-a-new-api-with-statsd-and-graphite/
+published: false
 ---
 
 Monitoring calls to third-party APIs can reveal interesting trends and alert

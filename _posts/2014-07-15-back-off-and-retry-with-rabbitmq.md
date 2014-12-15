@@ -3,6 +3,7 @@ layout: post
 title: "Back-off and retry with RabbitMQ"
 source: globaldev.co.uk
 source_url: http://globaldev.co.uk/2014/07/back-off-and-retry-with-rabbitmq/
+published: false
 ---
 
 A common issue with third-party APIs is limited availability during peak hours.
