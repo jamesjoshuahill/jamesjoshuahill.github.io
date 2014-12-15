@@ -295,3 +295,41 @@
         }
     }
 }
+
+/**
+ * Responsive IFrames for embedded content
+ * Thanks to Anders M. Andersen
+ * http://amobil.se/2011/11/responsive-embeds/
+ */
+.embed-container {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ratio16x9 {
+    padding-bottom: 56.25%;
+}
+
+.ratio4x3 {
+    padding-bottom: 75%;
+}
+
+.vimeo {
+    padding-top: 0;
+}
+
+.slideshare {
+    padding-top: 43.5px;
+}
