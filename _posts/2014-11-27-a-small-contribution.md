@@ -3,7 +3,7 @@ layout: post
 title: "A small contribution"
 categories: open-source
 ---
-I have been working through the Ruby exercises on [exercism.io] from time to time for seven months. It provides a great resource to practise writing code in different ways. Today I found a small wrinkle and had an opportunity to give something back.
+I have been working through the Ruby exercises on [exercism.io] from time to time for seven months. It provides a great resource to practise writing code in different ways. Yesterday I found a small wrinkle and had an opportunity to give something back.
 
 ## A very small bug
 
