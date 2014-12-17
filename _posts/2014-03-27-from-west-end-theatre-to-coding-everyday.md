@@ -3,6 +3,10 @@ layout: post
 title: "Talk: From West End theatre to coding everyday"
 categories: talk
 ---
+<div class="embed-container  ratio16x9  vimeo">
+    <iframe src="//player.vimeo.com/video/114144583" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
 Last year I changed career and became a beginner again. As one of the first
 junior developers at [globaldev] my colleagues were curious about how I made
 the change.
@@ -24,10 +28,6 @@ questions carefully.
 Changing career was worth the hard work. I love facing the new challenges,
 playing with ideas and the environment of mutual respect. Oh, and the new
 toys&hellip;retina MacBooks are beautiful :o)
-
-<div class="embed-container  ratio16x9  vimeo">
-    <iframe src="//player.vimeo.com/video/114144583" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
 
 Here are the slides:
 
