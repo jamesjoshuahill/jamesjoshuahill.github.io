@@ -30,7 +30,7 @@ If you use Terminal.app on a Mac, you can get a notification each time Guard run
 gem install terminal-notifier-guard
 {% endhighlight %}
 
-There is a Growl I put a copy of the following `Guardfile` in each exercise folder, so that Guard knows to look in the same directory, fire up Sublime Text and run `guard`.
+I put a copy of the following `Guardfile` in each exercise folder, so that Guard knows to look in the same directory, fire up Sublime Text and run `guard`.
 
 {% highlight ruby %}
 # A sample Guardfile for Ruby exercises from exercism.io
