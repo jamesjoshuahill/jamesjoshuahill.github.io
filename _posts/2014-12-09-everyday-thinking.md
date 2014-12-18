@@ -3,13 +3,13 @@ layout: post
 title: "Everyday thinking"
 categories: zen
 ---
-Keeping your audience interested is tricky if you sound religious, so I find it hard to discuss lessons and ideas from Zen without over-explaining. I think much of my difficulty stems from language.
+Keeping your audience interested is tricky if you sound religious, so I find it hard to discuss lessons and ideas from Zen without over-explaining. I think much of my difficulty stems from the language.
 
 The first time I heard the [four great vows] it was in the traditional Japanese. Like many religious traditions, the chant combines meaning and experience. The open vowels resonate in your chest and reverberate across the zendo. The sound evokes the endless path and our determination to follow it. This quality is lost in the English translations I know, so I studied the Japanese.
 
 Nevertheless, there is another language barrier. The solemn nature of a _vow_ evokes religious connotations. Therefore I often wondered if I was bonkers. An atheist chanting like a true believer!
 
-Recently I heard a new version by Genjo Marinello Osho in the [Chobo-Ji podcast]. Genjo is both a Zen teacher and a psychotherapist, so he chose his words carefully:
+Recently I heard a new version by Genjo Marinello Osho in the [Chobo-Ji podcast]. Genjo is both a Zen teacher and a psychotherapist who chose these words:
 
   * Care for all beings great and small, animate and inanimate.
   * Dispense with our own delusions centred around our instincts for survival.
