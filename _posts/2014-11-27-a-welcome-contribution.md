@@ -13,7 +13,7 @@ I decided it was probably a bug, so I went GitHubbing. It didn't take long to di
 
 ## Bonus round
 
-With the bug confirmed, I fixed the broken test and opened a [tiny pull request]. To my delight, [@kytrinyx] merged my change the same day and hinted that there were a few more test cases in the C# version. I've never worked with C#, but the test cases were easy to read, so I ported several extra tests to Ruby and opened a [second pull request].
+With the bug confirmed, I fixed the broken test and opened a [tiny pull request]. To my delight, [@kytrinyx] merged my change the same day and hinted that there were a few more test cases in the C# version. I've never worked with C#, but the test cases were surprisingly easy to read. I ported several extra tests to Ruby, opened a [second pull request] and it was merged shortly after.
 
 I was encouraged by this encounter and look forward to contributing to exercism.io again.
 
