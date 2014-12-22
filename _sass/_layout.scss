@@ -199,7 +199,7 @@
 .related-posts {
     h2 {
         font-size: $base-font-size;
-        margin-bottom: 5px;
+        margin-bottom: 0.25em;
         color: $grey-color-dark;
     }
 
@@ -223,7 +223,7 @@
 .home .post-meta {
     display: block;
     font-size: $small-font-size;
-    margin-bottom: 5px;
+    margin-bottom: 0.5em;
 }
 
 .post-link {
@@ -232,6 +232,7 @@
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-style: italic;
+    margin-bottom: 0.1em;
 }
 
 .did-you-mean {
@@ -271,12 +272,12 @@
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-style: italic;
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    font-size: 32pt;
+    line-height: 1em;
+    letter-spacing: -0.5pt;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 27pt;
     }
 }
 
