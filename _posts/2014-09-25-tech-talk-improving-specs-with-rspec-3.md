@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Talk: Improving specs with RSpec 3"
+title: "Improving specs with RSpec 3"
 categories: talk
 ---
 In my second tech talk at globaldev I demonstrated some new features in RSpec 3 that could improve your specs: verifying doubles, composable matchers

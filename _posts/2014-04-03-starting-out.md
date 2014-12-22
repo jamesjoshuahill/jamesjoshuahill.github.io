@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Talk: Starting out"
+title: "Starting out"
 category: talk
 ---
 I went back to Makers Academy to share my experience of starting out as a junior developer and demonstrated _Encounters_&mdash;the first feature I worked on at [globaldev].

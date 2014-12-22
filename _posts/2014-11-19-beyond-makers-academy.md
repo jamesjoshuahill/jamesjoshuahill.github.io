@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Talk: Beyond Makers Academy"
+title: "Beyond Makers Academy"
 category: talk
 ---
 In my second talk at Makers Academy I shared four thoughts for each day from Zen and a few other ideas that have changed the way I think.

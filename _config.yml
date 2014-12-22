@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jamesjoshuahill.github.io" # the base hostname & protocol for your site
 twitter_username: jamesjoshuahill
 github_username: jamesjoshuahill
-permalink: /:year/:month/:day/:title/
+permalink: pretty
 exclude: [vendor]
 
 # Build settings

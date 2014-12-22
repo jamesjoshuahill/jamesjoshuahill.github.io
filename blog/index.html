@@ -1,0 +1,12 @@
+---
+layout: default
+title: Blog
+---
+<div class="everything-else">
+  <h1>Blog</h1>
+  <ul class="post-list">
+    {% for post in site.categories.blog %}
+      {% include post-summary.html %}
+    {% endfor %}
+  </ul>
+</div>

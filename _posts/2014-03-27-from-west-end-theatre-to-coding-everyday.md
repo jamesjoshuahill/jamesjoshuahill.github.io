@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Talk: From West End theatre to coding everyday"
+title: "From West End theatre to coding everyday"
 categories: talk
 ---
 <div class="embed-container  ratio16x9  vimeo">

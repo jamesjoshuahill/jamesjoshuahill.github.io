@@ -1,0 +1,12 @@
+---
+layout: default
+title: Interviews
+---
+<div class="interviews">
+  <h1>Interviews</h1>
+  <ul class="post-list">
+    {% for post in site.categories.interview %}
+      {% include post-summary.html %}
+    {% endfor %}
+  </ul>
+</div>
