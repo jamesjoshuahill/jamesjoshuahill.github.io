@@ -7,7 +7,6 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
       {{ page.date | date: "%-d %B %Y" }}
-      {% for category in page.categories %} • <a href="/{{ category }}/">{{ category }}</a>{% endfor %}
     </p>
   </header>
 

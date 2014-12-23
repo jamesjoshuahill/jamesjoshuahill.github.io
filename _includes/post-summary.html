@@ -5,7 +5,6 @@
 
   <span class="post-meta">
     {{ post.date | date: "%-d %B %Y" }}
-    {% for category in post.categories %} • <a href="/{{ category }}/">{{ category }}</a>{% endfor %}
   </span>
 
   <span class="post-excerpt">
