@@ -4,19 +4,19 @@
 .site-header {
     max-height: 62pt;
     background-color: $brand-background-color;
-    border-bottom: 20pt solid $grey-color-light;
+    border-bottom: 26pt solid $grey-color-light;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 
     @include media-query($on-laptop) {
-        border-bottom: 18pt solid $grey-color-light;
         max-height: 51pt;
+        border-bottom: 25pt solid $grey-color-light;
     }
 
     @include media-query($on-palm) {
-        border-bottom: 16pt solid $grey-color-light;
         max-height: 40pt;
+        border-bottom: 16pt solid $grey-color-light;
     }
 }
 
@@ -52,7 +52,7 @@
 
 .site-nav {
     float: right;
-    padding-top: 62.5pt;
+    padding-top: 68.5pt;
 
     .menu-icon {
         display: none;
@@ -83,7 +83,7 @@
     }
 
     @include media-query($on-laptop) {
-        padding-top: 50pt;
+        padding-top: 57.5pt;
 
         .page-link {
             font-size: 17pt;
