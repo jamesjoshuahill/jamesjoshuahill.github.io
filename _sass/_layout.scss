@@ -59,7 +59,7 @@
     }
 
     .page-link {
-        font-size: 18pt;
+        font-size: $subheading-font-size;
         font-family: $title-font-family;
         font-weight: bold;
         font-style: italic;
@@ -153,7 +153,7 @@
 
 .footer-heading {
     color: $grey-color-dark;
-    font-size: 20pt;
+    font-size: $heading-font-size;
     font-weight: bold;
     font-style: italic;
     margin-bottom: $spacing-unit / 4;
@@ -209,7 +209,7 @@
     font-family: $base-font-family;
     font-weight: normal;
     font-style: normal;
-    font-size: 20pt;
+    font-size: $heading-font-size;
 }
 
 .asterisk {
@@ -234,7 +234,7 @@
 
 .related-posts {
     h2 {
-        font-size: $base-font-size;
+        font-size: $subheading-font-size;
         margin-bottom: 0.25em;
         color: $grey-color-dark;
     }
@@ -250,7 +250,7 @@
 }
 
 .categories {
-    font-size: $base-font-size;
+    font-size: $subheading-font-size;
     margin-bottom: 0;
 }
 
@@ -284,7 +284,7 @@
 
 .post-link {
     display: block;
-    font-size: 20pt;
+    font-size: $heading-font-size;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-style: italic;
@@ -343,26 +343,26 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 23pt;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: $heading-font-size;
         }
     }
 
     h3 {
-        font-size: 26px;
+        font-size: $heading-font-size;
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: $base-font-size;
         }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: $base-font-size;
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: 14pt;
         }
     }
 }
