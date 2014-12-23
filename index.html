@@ -18,15 +18,13 @@ layout: default
     *when I'm happy I'm silly!
   </p>
 
-  {% for post in site.posts limit:1 %}
-    {% for category in post.categories limit:1 %}
-      <h2 class="latest-heading">Latest {{ category }}</h2>
-    {% endfor %}
+  <h2 class="latest-heading">Latest</h2>
 
-    <ul class="post-list">
-        {% include post-summary.html %}
-    </ul>
-  {% endfor %}
+  <ul class="post-list">
+    {% for post in site.posts limit:3 %}
+      {% include post-summary.html %}
+    {% endfor %}
+  </ul>
 
   <h3 class="page-heading">Not the Josh you expected?</h3>
 
