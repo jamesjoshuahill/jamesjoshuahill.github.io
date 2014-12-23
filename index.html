@@ -14,11 +14,19 @@ layout: default
     <a href="https://commons.wikimedia.org/wiki/File:Carpaccio_V%C3%B6r%C3%B6ssapk%C3%A1sF%C3%A9rfi.jpg#mediaviewer/File:Carpaccio_V%C3%B6r%C3%B6ssapk%C3%A1sF%C3%A9rfi.jpg" title="Uomo col berretto rosso">Venetian</a>.
   </h1>
 
-  <p class="page-subheading">
+  <p class="asterisk">
     *when I'm happy I'm silly!
   </p>
 
-  <h2 class="page-heading">Not the Josh you expected?</h2>
+  <h2>Latest</h2>
+
+  <ul class="post-list">
+    {% for post in site.posts limit:1 %}
+      {% include post-summary.html %}
+    {% endfor %}
+  </ul>
+
+  <h3 class="page-heading">Not the Josh you expected?</h3>
 
   <div class="did-you-mean">
     <span>Did you mean:</span>
