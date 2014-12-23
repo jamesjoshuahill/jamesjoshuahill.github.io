@@ -8,14 +8,16 @@
 // Our variables
 $base-font-family: 'Crimson Text', Georgia, serif;
 $base-font-size:   16pt;
+$base-line-height: 1.5;
+
 $small-font-size:  $base-font-size * 0.875;
 $code-font-size:   $base-font-size * 0.75;
-$base-line-height: 1.5;
 
 $title-font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 
 $spacing-unit:     30px;
-$title-font-skew:  10deg;
+
+$gravatar-size:    200px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
