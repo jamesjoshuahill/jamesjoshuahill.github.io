@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ruby practice on exercism.io
-categories: blog
+categories: note
 ---
 Last week I joined [exercism.io] to practise Ruby. I'm looking forward to
 iterating on the problems set out by [@kytrinyx] and co. I think the

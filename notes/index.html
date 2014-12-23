@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Blog
+title: Notes
 ---
-<div class="everything-else">
-  <h1>Blog</h1>
+<div class="notes">
+  <h1 class="post-title">Notes</h1>
   <ul class="post-list">
-    {% for post in site.categories.blog %}
+    {% for post in site.categories.note %}
       {% include post-summary.html %}
     {% endfor %}
   </ul>

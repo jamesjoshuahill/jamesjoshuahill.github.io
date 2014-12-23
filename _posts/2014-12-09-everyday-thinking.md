@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Everyday thinking"
-categories: blog
+categories: note
 ---
 Keeping your audience interested is tricky if you sound religious, so I find it hard to discuss lessons and ideas from Zen without over-explaining. I think much of my difficulty stems from the language.
 

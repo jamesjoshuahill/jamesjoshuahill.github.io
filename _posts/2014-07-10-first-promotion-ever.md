@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Six month review"
-categories: blog
+categories: note
 ---
 Today I had my six month review at [globaldev]. Everything has been going
 pretty well, but I couldn't help feeling a little nervous and unsure what might
