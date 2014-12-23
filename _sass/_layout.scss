@@ -97,8 +97,8 @@
     @include media-query($on-palm) {
         padding-top: 0;
         position: absolute;
-        top: 25px;
-        right: 30px;
+        top: 20px;
+        right: 15px;
         background-color: $grey-color-light;
         border: 2px solid $grey-color-dark;
         border-radius: 3px;
