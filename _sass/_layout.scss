@@ -166,33 +166,33 @@
 }
 
 .footer-col-wrapper {
-    font-size: 12pt;
+    font-size: $code-font-size;
     color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    margin-left: -$spacing-unit;
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
     margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-left: $spacing-unit;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(60% - (#{$spacing-unit} / 2));
-    width:         calc(60% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(65% - #{$spacing-unit});
+    width:         calc(65% - #{$spacing-unit});
 }
 
 .footer-col-2 {
-    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-    width:         calc(40% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - #{$spacing-unit});
+    width:         calc(35% - #{$spacing-unit});
 }
 
 @include media-query($on-palm) {
     .footer-col {
         float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(100% - #{$spacing-unit});
+        width:         calc(100% - #{$spacing-unit});
     }
 }
 
