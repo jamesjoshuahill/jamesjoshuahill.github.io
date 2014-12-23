@@ -217,6 +217,10 @@
     text-align: right;
 }
 
+.latest-heading {
+    font-size: $subheading-font-size;
+}
+
 .post-list {
     margin-left: 0;
     margin-top: $spacing-unit;
@@ -232,6 +236,10 @@
     }
 }
 
+.home .post-list {
+    margin-top: $spacing-unit / 2;
+}
+
 .related-posts {
     h2 {
         font-size: $subheading-font-size;
@@ -245,7 +253,7 @@
         font-style: italic;
         list-style: none;
         margin-left: 0;
-        margin-bottom: $spacing-unit / 2;
+        margin-bottom: $spacing-unit;
     }
 }
 
