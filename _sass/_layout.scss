@@ -257,10 +257,27 @@
     font-style: italic;
 }
 
-.home .post-meta {
-    display: block;
-    font-size: $small-font-size;
-    margin-bottom: 0.5em;
+$gravatar-size: 200px;
+
+.home {
+    .gravatar {
+        float: right;
+        width: $gravatar-size;
+        height: $gravatar-size;
+        margin-left: $spacing-unit;
+        margin-bottom: $spacing-unit;
+        border-radius: $gravatar-size / 2;
+
+        @include media-query($on-palm) {
+            float: none;
+        }
+    }
+
+    .post-meta {
+        display: block;
+        font-size: $small-font-size;
+        margin-bottom: 0.5em;
+    }
 }
 
 .post-link {
