@@ -147,8 +147,31 @@
  */
 .site-footer {
     font-family: $title-font-family;
-    border-top: 16pt solid $grey-color-light;
+    border-top: 23pt solid $grey-color-light;
     padding: $spacing-unit 0;
+}
+
+.footer-nav {
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -40pt;
+    margin-bottom: 20pt;
+
+    a {
+        &:not(:first-child) {
+            margin-left: $spacing-unit / 2;
+        }
+
+        &,
+        &:visited {
+            color: $grey-color-dark;
+        }
+
+        &:hover,
+        &:active {
+            color: lighten($grey-color-dark, 30%);
+        }
+    }
 }
 
 .footer-heading {
