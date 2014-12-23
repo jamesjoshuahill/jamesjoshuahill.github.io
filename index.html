@@ -16,11 +16,17 @@ layout: default
     *not really, but when I'm happy I'm silly!
   </p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      {% include post-summary.html %}
-    {% endfor %}
-  </ul>
+  <div class="category-col-wrapper">
+    <div class="category-col  category-col-1">
+      <h2><a href="/blog/">Blog</a></h2>
+    </div>
+    <div class="category-col  category-col-2">
+      <h2><a href="/talk/">Talks</a></h2>
+    </div>
+    <div class="category-col  category-col-3">
+      <h2><a href="/interview/">Interviews</a></h2>
+    </div>
+  </div>
 
   <h2 class="page-heading">Not the Josh you expected?</h2>
 
