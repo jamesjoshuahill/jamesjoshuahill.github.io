@@ -329,7 +329,7 @@
     font-weight: bold;
     font-style: italic;
     font-size: 32pt;
-    line-height: 1em;
+    line-height: 1.2em;
     letter-spacing: -0.5pt;
 
     @include media-query($on-laptop) {
