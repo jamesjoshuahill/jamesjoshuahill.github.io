@@ -245,8 +245,13 @@
         font-style: italic;
         list-style: none;
         margin-left: 0;
-        margin-bottom: 0;
+        margin-bottom: $spacing-unit / 2;
     }
+}
+
+.categories {
+    font-size: $base-font-size;
+    margin-bottom: 0;
 }
 
 .post-meta {
