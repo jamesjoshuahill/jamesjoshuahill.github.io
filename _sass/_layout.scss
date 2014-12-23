@@ -78,7 +78,7 @@
 
             > svg {
                 width: 18px;
-                height: 15px;
+                height: $spacing-unit / 2;
 
                 path {
                     fill: $grey-color-dark;
@@ -238,9 +238,9 @@
 .did-you-mean {
     font-family: $title-font-family;
     font-size: $small-font-size;
-    padding: 0 0 0 15px;
+    padding: 0 0 0 $spacing-unit / 2;
     border-left: 10px solid $brand-background-color;
-    margin-bottom: 15px;
+    margin-bottom: $spacing-unit / 2;
     @extend %clearfix;
 
     span {
@@ -250,7 +250,7 @@
     ul {
         float: left;
         list-style: none;
-        margin-left: 10px;
+        margin-left: $spacing-unit / 2;
         margin-bottom: 0;
         font-style: italic;
 
@@ -318,7 +318,7 @@
     position: relative;
     height: 0;
     overflow: hidden;
-    margin-bottom: 15px;
+    margin-bottom: $spacing-unit / 2;
 }
 
 .embed-container iframe,
