@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-bundle exec jekyll build
+bundle exec jekyll serve --detach --config _config.yml,_config_test.yml
 bundle exec htmlproof ./_site --href_ignore "#"
+result=$?
+pkill -9 -f "jekyll serve"
+exit $result
