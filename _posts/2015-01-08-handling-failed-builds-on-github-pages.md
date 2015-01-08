@@ -13,7 +13,7 @@ Here's how I avoid builds failing when GitHub Pages is updated and get a notific
 
 ## Use the same versions
 
-Instead GitHub publishs the [dependencies and versions] and provide a handy JSON endpoint. In the Jekyll tutorial it shows how to call the endpoint provided in your `Gemfile` to specify the version of the `github-pages` gem running in production:
+GitHub publishes the [dependencies and versions] and provides a handy JSON endpoint. In the Jekyll tutorial it shows how to call the endpoint in your `Gemfile` and specify the version of the `github-pages` gem:
 
 {% highlight ruby %}
 source "https://rubygems.org"
@@ -25,11 +25,12 @@ versions = JSON.parse(open("https://pages.github.com/versions.json").read)
 gem "github-pages", versions["github-pages"]
 {% endhighlight %}
 
-This means that with every `bundle` the production version of the gem will be used. To keep track of updates I commit my `Gemfile.lock` to record the last version. The `github-pages` gem has been updated twice in the month or so since I created this site.
+This means that with every `bundle` the production version of the gem will be checked and installed. To keep track of updates I commit my `Gemfile.lock` to record the last version I've used in development. The `github-pages` gem has been updated twice in the month or so since I created this site.
 
 Ok, so I'm keeping up with changes to the `github-pages` gem. But what about the Ruby version? The endpoint gives several other details about the GitHub Pages production environment, here's the full response:
 
 {% highlight ruby %}
+# https://pages.github.com/versions.json
 {
   "jekyll"=>"2.4.0",
   "jekyll-coffeescript"=>"1.0.1",
@@ -56,19 +57,19 @@ Aha, there's the Ruby! So I can specify the production Ruby in my `Gemfile` as w
 ruby versions["ruby"]
 {% endhighlight %}
 
-The Ruby version isn't recorded in `Gemfile.lock` so I track changes manually in `.ruby-version`, because I use [rbenv] to manage my Rubies locally. So when the Ruby version changes in production I see a warning when I `bundle`:
+The Ruby version isn't recorded in `Gemfile.lock` so I track changes manually in `.ruby-version`, because I use [rbenv] to manage my Rubies in development. So when the Ruby version changes in production I see a warning when I `bundle`, for example:
 
 {% highlight bash %}
 Your Ruby version is 2.1.0, but your Gemfile specified 2.1.1
 {% endhighlight %}
 
-Now I know that I'm using the same versions of Ruby and `github-pages` when I test my site locally and there's less to go wrong when I deploy to production. And if something fails after a version upgrade I'll be able to compare the last working versions recorded in `Gemfile.lock` and `.ruby-version` and narrow down the cause.
+Now I know that I'm using the same versions of Ruby and `github-pages` when I run my site locally so there's less to go wrong when I deploy to production. And if a build fails after a version upgrade I'll be able to compare the last working versions recorded in `Gemfile.lock` and `.ruby-version` and narrow down the cause.
 
 ## Get notifications from Travis CI
 
-Checking your site after every push is a chore. And to make things worse, I'm guilty of pushing minor changes without testing. I guess we've all done it. I have thrown caution to the wind and broken the build several times, but I get an email shortly afterwards reporting my foolishness. Continuous integration is my friend.
+Checking your site after every push is a chore. And to make things worse, I'm guilty of pushing minor changes without testing. I guess we've all done it. I have thrown caution to the wind and broken the build several times, but I get an email shortly afterwards reporting my foolishness. Continuous integration is my friend :o)
 
-Setting up Travis CI for a GitHub Pages site is straight-forward. Check out the [continuous integration tutorial] and never miss a failed build again. I highly recommend using `html-proofer` to check all your links and images are working too.
+Setting up Travis CI for a GitHub Pages site is straight-forward. Check out the [continuous integration tutorial] and never miss a failed build again. I highly recommend using `html-proofer` to check all your links and images are working too. There's a number of ways to extend the basic set up, but I'll leave that for another time.
 
 Take a look at the [full source code] of this site and good luck with your deployments.
 
