@@ -10,7 +10,6 @@ url: "http://jamesjoshuahill.github.io" # the base hostname & protocol for your 
 twitter_username: jamesjoshuahill
 github_username: jamesjoshuahill
 permalink: pretty
-exclude: [vendor]
 safe: true
 
 # Build settings
