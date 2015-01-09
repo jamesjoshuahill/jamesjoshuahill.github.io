@@ -5,11 +5,11 @@ categories: note
 ---
 Last month I created this site with [Jekyll 2.0] and took advantage of the free hosting on [GitHub Pages]. The deployment process is effortless: `git push origin master`. If you've used Heroku this looks familiar, but on GitHub Pages you won't see any details of the deployment. So what happens if the build fails?
 
-As I walked through the set up I realised that GitHub Pages does more than host my site, it builds it too. Everytime I push a new commit to `master`, GitHub builds my static site and serves it to the world via their CDN. Nice!
+As I walked through the set up I realised that GitHub Pages does more than host my site&mdash;it builds it too. Every time I push a new commit to `master`, GitHub runs Jekyll to build my static site and serves it to the world via their CDN. Nice!
 
-Unlike other hosts you can't control the production environment on GitHub Pages. Their generosity has some sensible limits. Thankfully GitHub won't deploy a failed build, but unless you check your site everytime you push you won't know if your changes have been deployed.
+Unlike other hosts you can't control the production environment on GitHub Pages. Their generosity has some sensible limits. Thankfully GitHub won't deploy a failed build, but unless you check your site every time you push you won't know if your changes have been deployed.
 
-Here's how I avoid builds failing when GitHub Pages is updated and get a notification when a build fails.
+Here's how I avoid failed builds by using the same versions in development and get a notification when a build fails.
 
 ## Use the same versions
 
@@ -69,7 +69,7 @@ Now I know that I'm using the same versions of Ruby and `github-pages` when I ru
 
 Checking your site after every push is a chore. And to make things worse, I'm guilty of pushing minor changes without testing. I guess we've all done it. I have thrown caution to the wind and broken the build several times, but I get an email shortly afterwards reporting my foolishness. Continuous integration is my friend :o)
 
-Setting up Travis CI for a GitHub Pages site is straight-forward. Check out the [continuous integration tutorial] and never miss a failed build again. I highly recommend using `html-proofer` to check all your links and images are working too. There's a number of ways to extend the basic set up, but I'll leave that for another time.
+Setting up Travis CI for a GitHub Pages site is straightforward. Check out the [continuous integration tutorial] and never miss a failed build again. I highly recommend using `html-proofer` to check all your links and images are working too. There's a number of ways to extend the basic set up, but I'll leave that for another time.
 
 Take a look at the [full source code] of this site and good luck with your deployments.
 
