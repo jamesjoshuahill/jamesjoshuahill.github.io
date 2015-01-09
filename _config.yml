@@ -11,9 +11,10 @@ twitter_username: jamesjoshuahill
 github_username: jamesjoshuahill
 permalink: pretty
 
-# GitHub Pages overrides
-safe: true
+# GitHub Pages settings
 lsi: false
+gems:
+  - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
