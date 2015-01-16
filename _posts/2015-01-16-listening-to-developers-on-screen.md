@@ -7,7 +7,7 @@ I'm one year into my new career as a software developer, so I've been reflecting
 
 I don't have a phone on my desk. I (almost) never write email. My inbox has become a passive feed of notifications from GitHub, JIRA, Google Calendar, Google Docs and Yammer. Meetings are rare. I stand-up with my team every morning and after that I barely say a word until lunch.
 
-And I can turn it all off when I want. I love being able to hide all my notifications and get stuck into work without interruptions. And when I'm done with a task I can catch up with my team. I feel very lucky to have so much control.
+And I can turn it all off when I want. I love being able to hide all my notifications and get stuck into work without interruptions. When I'm done with a task I can catch up with my team. I feel very lucky to have so much control over my time.
 
 ## We're chatting in Slack
 
