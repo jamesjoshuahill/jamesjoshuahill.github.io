@@ -202,12 +202,22 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 36px;
+        height: 36px;
         vertical-align: middle;
 
         path {
             fill: $grey-color;
+        }
+    }
+
+    &:hover,
+    &:active {
+
+        > svg {
+            path {
+                fill: lighten($grey-color, 30%);
+            }
         }
     }
 }
