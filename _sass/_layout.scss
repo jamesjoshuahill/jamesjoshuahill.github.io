@@ -407,6 +407,31 @@
             font-size: 14pt;
         }
     }
+
+    ul {
+        list-style: none;
+        list-style-image: none;
+        list-style-position: outside;
+
+        > li::before {
+            padding-right: $spacing-unit / 3;
+            content: '•';
+            position: absolute;
+            display: inline-block;
+            box-sizing: border-box;
+            width: $spacing-unit;
+            margin-left: -$spacing-unit;
+            text-align: right;
+        }
+
+        li {
+            margin-bottom: 0.75em;
+        }
+    }
+
+    p {
+        margin-bottom: 1em;
+    }
 }
 
 /**
