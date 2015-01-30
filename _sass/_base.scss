@@ -20,7 +20,14 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
+    letter-spacing: 0.01rem;
     -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+    word-break: break-word;
+    word-wrap: break-word;
 }
 
 

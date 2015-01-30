@@ -155,8 +155,8 @@
 .footer-nav {
     font-weight: bold;
     font-style: italic;
-    margin-top: -40pt;
-    margin-bottom: 20pt;
+    margin-top: -($spacing-unit * 5 / 3);
+    margin-bottom: $spacing-unit / 2;
     letter-spacing: $title-letter-spacing;
 
     a {
@@ -305,7 +305,7 @@
         float: right;
         width: $gravatar-size;
         height: $gravatar-size;
-        margin-left: $spacing-unit;
+        margin-left: $spacing-unit * 0.75;
         margin-bottom: $spacing-unit;
         border-radius: $gravatar-size / 2;
 
