@@ -26,6 +26,7 @@
     font-weight: bold;
     font-style: italic;
     line-height: 93pt;
+    letter-spacing: $title-letter-spacing;
     margin-bottom: 0;
     float: left;
 
@@ -63,7 +64,7 @@
         font-family: $title-font-family;
         font-weight: bold;
         font-style: italic;
-        letter-spacing: -0.5pt;
+        letter-spacing: $title-letter-spacing;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -156,6 +157,7 @@
     font-style: italic;
     margin-top: -40pt;
     margin-bottom: 20pt;
+    letter-spacing: $title-letter-spacing;
 
     a {
         &:not(:first-child) {
@@ -179,6 +181,7 @@
     font-size: $heading-font-size;
     font-weight: bold;
     font-style: italic;
+    letter-spacing: $title-letter-spacing;
     margin-bottom: $spacing-unit / 4;
 }
 
@@ -368,7 +371,7 @@
     font-style: italic;
     font-size: 32pt;
     line-height: 1.2em;
-    letter-spacing: -0.5pt;
+    letter-spacing: $title-letter-spacing;
 
     @include media-query($on-laptop) {
         font-size: 27pt;
