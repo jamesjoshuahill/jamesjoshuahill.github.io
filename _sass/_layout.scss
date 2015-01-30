@@ -383,6 +383,7 @@
 
     h2 {
         font-size: 23pt;
+        padding-top: 0.5em;
 
         @include media-query($on-laptop) {
             font-size: $heading-font-size;
@@ -391,6 +392,7 @@
 
     h3 {
         font-size: $heading-font-size;
+        padding-top: 0.5em;
 
         @include media-query($on-laptop) {
             font-size: $base-font-size;
@@ -399,6 +401,7 @@
 
     h4 {
         font-size: $base-font-size;
+        padding-top: 0.5em;
 
         @include media-query($on-laptop) {
             font-size: 14pt;
