@@ -15,7 +15,7 @@
     }
 
     @include media-query($on-palm) {
-        max-height: 40pt;
+        max-height: 39pt;
         border-bottom: 16pt solid $grey-color-light;
     }
 }
@@ -53,7 +53,7 @@
 
 .site-nav {
     float: right;
-    padding-top: 68.5pt;
+    padding-top: 67pt;
 
     .menu-icon {
         display: none;
@@ -84,7 +84,7 @@
     }
 
     @include media-query($on-laptop) {
-        padding-top: 57.5pt;
+        padding-top: 55pt;
 
         .page-link {
             font-size: 17pt;
@@ -154,8 +154,7 @@
 
 .footer-nav {
     font-weight: bold;
-    font-style: italic;
-    margin-top: -($spacing-unit * 5 / 3);
+    margin-top: -60px;
     margin-bottom: $spacing-unit / 2;
     letter-spacing: $title-letter-spacing;
 
@@ -240,7 +239,7 @@
     font-family: $base-font-family;
     font-weight: normal;
     font-style: normal;
-    font-size: $heading-font-size;
+    font-size: $subheading-font-size;
 }
 
 .asterisk {
