@@ -382,8 +382,9 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 23pt;
+        font-size: $heading-font-size;
         padding-top: 0.5em;
+        letter-spacing: $title-letter-spacing;
 
         @include media-query($on-laptop) {
             font-size: $heading-font-size;
@@ -393,6 +394,7 @@
     h3 {
         font-size: $heading-font-size;
         padding-top: 0.5em;
+        letter-spacing: $title-letter-spacing;
 
         @include media-query($on-laptop) {
             font-size: $base-font-size;
@@ -402,6 +404,7 @@
     h4 {
         font-size: $base-font-size;
         padding-top: 0.5em;
+        letter-spacing: $title-letter-spacing;
 
         @include media-query($on-laptop) {
             font-size: 14pt;
