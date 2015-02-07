@@ -20,8 +20,8 @@ I have never had such a large proportion of my communication with my colleagues 
 I worked in the world of theatre—the very business of expression—where everyone enjoys expression and its many forms. Most of our communication was in person. And to express ourselves we would often quote, or mimic, or mime, or gesture, or sing a line or two.
 
 Developers are often quieter than average in person. But catch them on screen and you'll hear them at their loudest: the animated GIF. It goes beyond words and transcends emoji.
-
-![Nailed it](http://i.imgur.com/p17Zs.gif)
+ 
+{% include image.html src="http://i.imgur.com/p17Zs.gif" alt="Nailed it" %}
 
 ## Timing is everything
 

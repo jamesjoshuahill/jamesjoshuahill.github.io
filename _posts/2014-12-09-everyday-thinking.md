@@ -18,7 +18,7 @@ Recently I heard a new version by Genjo Marinello Osho in the [Chobo-Ji podcast]
 
 This language is clear and actionable. It inspired me to share them and I chose a warm crowd: the Makers at [Makers Academy]. To hold myself back from over-explaining I squeezed them onto one slide:
 
-![Four vows slide]({{ site.baseurl }}/assets/four-thoughts-slide.png)
+{% include image.html path="/assets/four-thoughts-slide.png" alt="Four vows slide" %}
 
 I changed the second one the most. I worried that bringing up _delusions_ might discourage the Makers, so I chose a positive action: **investigate**. Makers live in the unknown; it's key to immersing yourself in learning how to code. I still remember how hard it was to be challenged everyday.
 
