@@ -65,6 +65,7 @@ She felt lost. git threw a fatal error and questioned her _intention_, how rude?
 >
 > JOSH: ...oooooh!
 
+{% include image.html path="/assets/totoro.jpeg" alt="Totoro" caption="Totoro is my rubber duck" %}
 
 I realised that she hadn't run `git fetch origin` first, so git threw a fatal error because it didn't know the new branch existed. The clone on her home computer was not in sync with GitHub.
 

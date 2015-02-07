@@ -479,3 +479,13 @@
 .youtube {
     padding-top: 30px;
 }
+
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        font-size: $small-font-size;
+        color: $grey-color;
+        margin-top: $spacing-unit / 3;
+    }
+}
