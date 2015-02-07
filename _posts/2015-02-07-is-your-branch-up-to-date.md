@@ -3,7 +3,7 @@ layout: post
 title: "Is your branch up-to-date?"
 categories: note
 ---
-git can be confusing, especially for beginners. Even a common message: `Your branch is up-to-date with 'origin/master'.` might not mean what you think. Nowadays I'm comfortable with my git workflow and rarely see an error, but I can still remember feeling completely lost.
+git can be confusing, especially for beginners. Even a common message: `Your branch is up-to-date with 'origin/master'` might not mean what you think. Nowadays I'm comfortable with my git workflow and rarely see an error, but I can still remember feeling completely lost.
 
 I started coaching at [Codebar](http://codebar.io) last year. It's a free workshop to get to grips with the basics of web development. I've found that sharing knowledge with a beginner is harder than understanding. Telling someone else shines a light into my blind spots. If you're near a Codebar meetup, sign up and come along! It's a friendly group and you're bound to learn something.
 
@@ -49,7 +49,7 @@ fatal: Cannot update paths and switch to branch 'new-feature' at the same time.
 Did you intend to checkout 'origin/new-feature' which can not be resolved as a commit?
 {% endhighlight %}
 
-She felt lost. git threw a fatal error and questioned her _intention_, how rude? I looked back at git askance and had a rubber duck moment. This is roughly how my one-sided conversation with git went:
+She felt lost. git threw a fatal error and questioned her _intent_, how rude? I looked back at git askance and had a rubber duck moment. This is roughly how my one-sided conversation with git went:
 
 > JOSH: Oh. I don't recognise that error. Hmmm.
 > 
@@ -69,7 +69,7 @@ She felt lost. git threw a fatal error and questioned her _intention_, how rude?
 
 I realised that she hadn't run `git fetch origin` first, so git threw a fatal error because it didn't know the new branch existed. The clone on her home computer was not in sync with GitHub.
 
-When she ran `git fetch origin` the new branch was downloaded and then she was able to checkout. Phew! I didn't see that error coming and caught out because I take fetching for granted. That's what happens when you step out of your routine.
+When she ran `git fetch origin` the new branch was downloaded and then she was able to checkout. Phew! I didn't see that error coming and was caught out because I take fetching for granted. That's what happens when you step out of your routine.
 
 You might think that when git throws this error it would be a perfect opportunity to remind you how long it has been since you fetched from GitHub, but no. Instead, I think git assumes you know how it works, so the error message politely suggests that you've made a typo.
 
@@ -92,4 +92,4 @@ Sure. If no one else has access to the GitHub repository then you can rest easy 
 
 If you're collaborating with other people on GitHub, then hopefully the next time you see `Your branch is up-to-date with 'origin/master'` you'll wonder how long it's been since your last fetch. It's up to you to keep your local clone in sync and up-to-date with your team.
 
-When you collaborate it's best to work in separate branches to avoid conflicts. Even so, in a shared repository I'm not sure you can ever be completely up-to-date with GitHub. Maybe just for a moment, when you push and take the lead.
+When you collaborate it's easier to work in separate branches. Even so, in a shared repository I'm not sure you can ever be completely up-to-date with GitHub. Maybe just for a moment, when you push and take the lead.
