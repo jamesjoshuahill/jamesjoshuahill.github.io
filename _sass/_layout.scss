@@ -84,10 +84,10 @@
     }
 
     @include media-query($on-laptop) {
-        padding-top: 55pt;
+        padding-top: 54.5pt;
 
         .page-link {
-            font-size: 17pt;
+            font-size: 18pt;
 
             &:not(:first-child) {
                 margin-left: $spacing-unit / 2;
