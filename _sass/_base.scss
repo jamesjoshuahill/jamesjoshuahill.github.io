@@ -148,6 +148,9 @@ code {
     font-family: $code-font-family;
     padding: 2px 6px;
     background-color: $grey-color-light;
+    word-wrap: normal;
+    word-break: normal;
+    display: inline-block;
 }
 
 pre {
