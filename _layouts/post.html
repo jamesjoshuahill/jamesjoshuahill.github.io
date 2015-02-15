@@ -20,6 +20,7 @@ layout: default
       {% for post in site.related_posts limit:5 %}
         <li>
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span class="related-category">{{ post.categories.first | capitalize }}</span>
         </li>
       {% endfor %}
     </ul>
