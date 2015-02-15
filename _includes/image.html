@@ -1,5 +1,5 @@
 <p class="image-wrapper">
-  <img src="{{ if include.path }}{{ site.url }}{{ include.path }}{{ else }}{{ include.src }}{{ endif }}" alt="{{ include.alt }}"/>
+  <img src="{% if include.path %}{{ site.url }}{{ include.path }}{% else %}{{ include.src }}{% endif %}" alt="{{ include.alt }}"/>
   {% if include.caption %}
     <br/>
     <span class="image-caption">{{ include.caption }}</span>
