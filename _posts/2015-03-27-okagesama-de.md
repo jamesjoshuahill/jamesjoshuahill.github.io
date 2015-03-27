@@ -21,9 +21,9 @@ Hearing this gratitude reminds me of the many people I am thankful for in my lif
 
 I recognised the word _kage_ as shadow. I had been content with this translation for many years, but in hindsight I had missed some clues to its meaning along the way.
 
-My first time I read the word was Akira Kurosawa's film _Kagemusha_, usually translated as _Shadow Warrior_. The story featured a thief with an uncanny resemblance to a feudal lord. In secret he was taught to impersonate the warlord. As the _kagemusha_ he became a warrior, but when he took the warlord's place he was more than a shadow .
+The first time I read the word was Akira Kurosawa's film _Kagemusha_, usually translated as _Shadow Warrior_. The story featured a thief with an uncanny resemblance to a feudal lord. In secret he was taught to impersonate the warlord. As the _kagemusha_ he became a warrior, but when he took the warlord's place he was more than a shadow .
 
-Later I became a fan of the popular anime _Naruto_. In a fantasy world of ninja, one of young hero's favourite ninja techniques is _kagebushin no jutsu_, the shadow clone technique. _Kage_ also appears in the titles of the ninja leaders. Fire for the _Hokage_, wind for the _Kazekage_ and so on. I remember wondering what the wind's shadow might be, but let it go.
+Later I became a fan of the popular anime _Naruto_. In a fantasy world of ninja, _kage_ appears in the titles of the ninja leaders. Fire for the _Hokage_, wind for the _Kazekage_ and so on. I remember wondering what the wind's shadow might be, but let it go.
 
 Ultimately, it wasn't until I came across _okagesama de_ that my understanding of _kage_ unravelled. Reading it as 'thanks to your shadow' I knew something was lost in translation. It was time to dig.
 
@@ -39,8 +39,8 @@ I am grateful to Charles Shirō Inouye for these examples. I highly recommend hi
 
 ## Lights in the dark
 
-Sometimes I am baffled by this world's constant shifting and changing, and othertimes it seems to stand still. Nevertheless, there are people who resonate and stick in my mind. Perhaps it's not the people themselves, but their _kage_.
+Sometimes I am baffled by the constant shifting and changing of this world; other times it seems to stand still. Nevertheless, there are people who resonate and stick in my mind. Perhaps it's not the people themselves, but their _kage_.
 
 Like an incidental kindness that lifted my spirits, a broad smile that dissolved a conflict, a knowing laugh with a friend, or a teacher's words echoing in my ears much later. These moments shine in the dark, lighting the way.
 
-Thanks to you.
+Thank you.
