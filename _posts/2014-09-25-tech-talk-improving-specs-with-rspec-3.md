@@ -10,7 +10,7 @@ categories: talk
 In my second tech talk at globaldev I demonstrated some new features in RSpec 3 that could improve your specs: verifying doubles, composable matchers
 and test spies.
 
-I have shared the [code examples] I used to demostrate verifying doubles and
+I have shared the [code examples] I used to demonstrate verifying doubles and
 test spies so you can try them out for yourself.
 
 Here are the slides:
