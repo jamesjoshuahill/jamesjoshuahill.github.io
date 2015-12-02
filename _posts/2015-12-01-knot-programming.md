@@ -3,7 +3,7 @@ layout: post
 title: "Knot programming"
 categories: talk
 ---
-At the first Makers Alumni talks night I gave a talk how I learned how to tie
+At the first Makers Alumni talks night, I told the story of how I learned how to tie
 knots on boats. It's a practical skill with elegant results, and many more ways
 to put you in a bind. **Disclaimer:** this talk is not about knots. It's about
 the challenges of learning by doing; about enough to keep the boat sailing.
