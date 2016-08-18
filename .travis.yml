@@ -2,7 +2,7 @@ sudo: false
 language: ruby
 cache: bundler
 rvm:
-- 2.1.1
+- 2.1.7
 script: ./script/cibuild
 
 env:
