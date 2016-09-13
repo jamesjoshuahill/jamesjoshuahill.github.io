@@ -32,9 +32,9 @@ standing on the shoulders of the globaldev team who set it up, I could add
 tracking of the new API's status codes to a [Node.js](http://nodejs.org)
 application with one line of code:
 
-{% highlight javascript %}
+```javascript
 statsd.increment("akamai.response." + response.statusCode);
-{% endhighlight %}
+```
 
 This creates and increments a counter for each status code, e.g.
 `akamai.response.201` for successful calls. Very quickly, a graph of the API

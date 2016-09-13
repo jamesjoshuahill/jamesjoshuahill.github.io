@@ -100,13 +100,13 @@ is a queue parameter. This can be set as an argument called
 `x-dead-letter-exchange` when you declare the queue. Here is an example using
 the [node-amqp](https://github.com/postwait/node-amqp) client:
 
-{% highlight javascript %}
+```javascript
 var queueOptions = { arguments: { "x-dead-letter-exchange": "exchange" } };
 
 connection.queue("wait-queue", queueOptions, function(waitQueue) {
   // Bind to exchange
 });
-{% endhighlight %}
+```
 
 Despite the ominous name dead letter exchanges are normal exchanges with no
 special configuration. So now we have a wait queue with RabbitMQ configured to
@@ -123,18 +123,18 @@ each message individually.
 
 When you publish a message you can set the `expiration` field in milliseconds:
 
-{% highlight javascript %}
+```javascript
 var messageOptions = { expiration: 10000 };
 
 exchange.publish("routing-key", "body", messageOptions);
-{% endhighlight %}
+```
 
 This is simple enough, but it means that when a purge request fails our consumer
 has to make a copy of the message in order to publish it with an `expiration`
 field. NB: If you declare your queue with message acknowledgement don't forget to
 acknowledge the original message!
 
-{% highlight javascript %}
+```javascript
 var subscribeOptions = { ack: true };
 
 queue.subscribe(subscribeOptions, function(message, headers, deliveryInfo, messageObject) {
@@ -153,7 +153,7 @@ queue.subscribe(subscribeOptions, function(message, headers, deliveryInfo, messa
   exchange.publish(deliveryInfo.routingKey, message, messageOptions);
   messageObject.acknowledge(false);
 });
-{% endhighlight %}
+```
 
 You'll need to make sure you copy all of the details of your own messages. Next
 let's increase the expiry each time the API request fails.
@@ -171,7 +171,7 @@ message's `x-death` header. This allows us to find out what the previous
 expiration was and prevents messages from expiring again. Importantly, the
 `x-death` header is an ordered array, so the first record is the most recent.
 
-{% highlight javascript %}
+```javascript
 var expiration;
 
 if (headers["x-death"]) {
@@ -181,7 +181,7 @@ if (headers["x-death"]) {
 }
 // Apply some randomness to the expiration
 // ...
-{% endhighlight %}
+```
 
 In this example the first expiration is 10,000 milliseconds, which is
 multiplied by 3 each time the message is retried. It's common practice to
@@ -202,7 +202,7 @@ copies of failed messages are published to the wait exchange you don't have to
 change the routing key. Just bind your wait queue to the same list of routing
 keys as your primary queue on the wait exchange.
 
-{% highlight javascript %}
+```javascript
 var routingKeys = ["routing-key-a", "routing-key-b"];
 
 connection.exchange("wait-exchange", waitExchangeOptions, function(waitExchange) {
@@ -226,7 +226,7 @@ connection.exchange("primary-exchange", primaryExchangeOptions, function(primary
     // ...
   });
 });
-{% endhighlight %}
+```
 
 With this configuration when a message is dead-lettered from the wait queue and
 republished to your primary exchange the routing keys will stay the same. And it
@@ -237,7 +237,7 @@ is simple to add or remove routing keys at a later date.
 Now let's bring all the moving parts together for a lightweight exponential
 back-off and retry mechanism using RabbitMQ:
 
-{% highlight javascript %}
+```javascript
 var amqp = require("amqp");
 
 connection = amqp.createConnection({ host: "localhost" });
@@ -289,7 +289,7 @@ connection.on("ready", function() {
     });
   });
 });
-{% endhighlight %}
+```
 
 ## Summary
 

@@ -21,19 +21,19 @@ Like many code practice sites, once you've submitted your solution you can see o
 
 I enjoy TDD with a short feedback loop. I use [Guard] to run the tests. Since they're written in MiniTest you'll need:
 
-{% highlight bash %}
+```bash
 gem install guard-minitest
-{% endhighlight %}
+```
 
 If you use Terminal.app on a Mac, you can get a notification each time Guard runs the tests by installing a handy gem:
 
-{% highlight bash %}
+```bash
 gem install terminal-notifier-guard
-{% endhighlight %}
+```
 
 I put a copy of the following `Guardfile` in each exercise folder, so that Guard knows to look in the same directory, fire up Sublime Text and run `guard`.
 
-{% highlight ruby %}
+```ruby
 # A sample Guardfile for Ruby exercises from exercism.io
 # More info at https://github.com/guard/guard#readme
 
@@ -41,7 +41,7 @@ guard :minitest, test_folders: '.' do
   # with Minitest::Unit
   watch(%r{^(.+)_test\.rb}) { |m| "./#{m[1]}_test.rb" }
 end
-{% endhighlight %}
+```
 
 With this set up, every time I save the test file Guard runs the tests for me.
 

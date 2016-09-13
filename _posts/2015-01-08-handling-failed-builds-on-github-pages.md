@@ -15,7 +15,7 @@ Here's how I avoid failed builds by using the same versions in development and g
 
 GitHub publishes the [dependencies and versions] and provides a handy JSON endpoint. In the Jekyll tutorial it shows how to call the endpoint in your `Gemfile` and specify the version of the `github-pages` gem:
 
-{% highlight ruby %}
+```ruby
 source "https://rubygems.org"
 
 require "json"
@@ -23,13 +23,13 @@ require "open-uri"
 versions = JSON.parse(open("https://pages.github.com/versions.json").read)
 
 gem "github-pages", versions["github-pages"]
-{% endhighlight %}
+```
 
 This means that with every `bundle` the production version of the gem will be checked and installed. To keep track of updates I commit my `Gemfile.lock` to record the last version I've used in development. The `github-pages` gem has been updated twice in the month or so since I created this site.
 
 Ok, so I'm keeping up with changes to the `github-pages` gem. But what about the Ruby version? The endpoint gives several other details about the GitHub Pages production environment, here's the full response:
 
-{% highlight ruby %}
+```ruby
 # https://pages.github.com/versions.json
 {
   "jekyll"=>"2.4.0",
@@ -49,19 +49,19 @@ Ok, so I'm keeping up with changes to the `github-pages` gem. But what about the
   "github-pages"=>"31",
   "ruby"=>"2.1.1"
 }
-{% endhighlight %}
+```
 
 Aha, there's the Ruby! So I can specify the production Ruby in my `Gemfile` as well:
 
-{% highlight ruby %}
+```ruby
 ruby versions["ruby"]
-{% endhighlight %}
+```
 
 The Ruby version isn't recorded in `Gemfile.lock` so I track changes manually in `.ruby-version`, because I use [rbenv] to manage my Rubies in development. So when the Ruby version changes in production I see a warning when I `bundle`, for example:
 
-{% highlight bash %}
+```bash
 Your Ruby version is 2.1.0, but your Gemfile specified 2.1.1
-{% endhighlight %}
+```
 
 Now I know that I'm using the same versions of Ruby and `github-pages` when I run my site locally so there's less to go wrong when I deploy to production. And if a build fails after a version upgrade I'll be able to compare the last working versions recorded in `Gemfile.lock` and `.ruby-version` and narrow down the cause.
 

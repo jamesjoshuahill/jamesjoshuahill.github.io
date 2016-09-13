@@ -17,9 +17,9 @@ You may not have realised that git keeps a clone of your remote repositories on 
 
 Next time git tells you that you're up-to-date it might help you to think:
 
-{% highlight bash %}
+```bash
 Your branch is up-to-date with your clone of 'master' from 'origin'.
-{% endhighlight %}
+```
 
 ## Fetch is manual
 
@@ -33,21 +33,21 @@ To check if you're up-to-date with GitHub run `git fetch origin` before `git sta
 
 One evening a student worked on a new feature at Codebar and wanted to continue working on another computer at home. She had started a new branch and pushed it to GitHub. I gave her a shortcut to try:
 
-{% highlight bash %}
+```bash
 # Instead of repeating the branch name
 git checkout -b new-feature origin/new-feature
 
 # Use the same branch name and set up tracking
 git checkout -t origin/new-feature
-{% endhighlight %}
+```
 
 It's handy if you use the same name for your branches locally and on GitHub. Even better, it sets up tracking so you can `git push` straight away, without `-u origin new-feature` to set the upstream branch the first time. However, when she tried it at home, git threw an error:
 
-{% highlight bash %}
+```bash
 $ git checkout -t origin/new-feature
 fatal: Cannot update paths and switch to branch 'new-feature' at the same time.
 Did you intend to checkout 'origin/new-feature' which can not be resolved as a commit?
-{% endhighlight %}
+```
 
 She felt lost. git threw a fatal error and questioned her _intent_, how rude? I looked back at git askance and had a rubber duck moment. This is roughly how my one-sided conversation with git went:
 
@@ -77,12 +77,12 @@ You might think that when git throws this error it would be a perfect opportunit
 
 When I have two or more branches on the go I find it's useful to see an overview. Here's how to see a summary of all your local branches, which remote branch they are tracking and their status:
 
-{% highlight bash %}
+```bash
 # A summary of all local branches with their tracking branch and status
 $ git branch -vv
 * git-up-to-date dafa4b4 [origin/git-up-to-date: ahead 1] Add git up-to-date post
   master         991f4cd [origin/master] Fix footer nav margin
-{% endhighlight %}
+```
 
 For example, I have two branches locally. I am on `git-up-to-date` branch and it is ahead of `origin/git-up-to-date`. So I have one commit to push to GitHub.
 

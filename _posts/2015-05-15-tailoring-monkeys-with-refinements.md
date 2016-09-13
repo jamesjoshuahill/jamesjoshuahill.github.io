@@ -9,7 +9,7 @@ One of the most powerful features of Ruby is open classes. You can reopen any cl
 
 Ruby on Rails brought many monkey patches into mainstream use and they've become second nature. For example, ActiveSupport provides a `#blank?` method on almost every object by monkey patching several standard library classes:
 
-{% highlight bash %}
+```bash
 Object#blank? #=> [true, false]
 Array#blank? #=> [true, false] alias of Array#empty?
 Hash#blank? #=> [true, false] alias of Hash#empty?
@@ -20,7 +20,7 @@ FalseClass#blank? #=> true
 
 TrueClass#blank? #=> false
 Numeric#blank? #=> false
-{% endhighlight %}
+```
 
 [Read the source code](https://github.com/rails/rails/blob/7847a19f476fb9bee287681586d872ea43785e53/activesupport/lib/active_support/core_ext/object/blank.rb) in ActiveSupport 4.2.0.
 
@@ -32,16 +32,16 @@ What's your favourite monkey patch in Rails? Maybe it's `"octopus".pluralize`, o
 
 In this case, we wanted a convenient syntax for checking parameters in a Rack app. To handle missing or empty parameters we had vanilla Ruby code like:
 
-{% highlight ruby %}
+```ruby
 member_id = String(request.params["member_id"])
 if member_id.empty?
   # return 400 Bad Request
 end
-{% endhighlight %}
+```
 
 For our use case we only needed to handle `nil` and `""`, so we extended `NilClass` and `String` using refinements:
 
-{% highlight ruby %}
+```ruby
 module Blank
   refine String do
     alias_method :blank?, :empty?
@@ -53,17 +53,17 @@ module Blank
     end
   end
 end
-{% endhighlight %}
+```
 
 You can group several refinements in a single module and activate them together in your code. With this refinement we could reduce the boilerplate code for handling parameters to:
 
-{% highlight ruby %}
+```ruby
 using Blank
 
 if request.params["member_id"].blank?
   # return 400 Bad Request
 end
-{% endhighlight %}
+```
 
 ## Scope
 
@@ -73,7 +73,7 @@ The scope of refinements is per file and lexical. You can activate them at the t
 
 Here is an example file showing how our `#blank?` refinements can be scoped to a single class definition.
 
-{% highlight ruby %}
+```ruby
 require_relative "blank"
 
 class App
@@ -86,7 +86,7 @@ class App
 end
 
 # but not here
-{% endhighlight %}
+```
 
 [Read the documentation](http://ruby-doc.org/core-2.1.1/doc/syntax/refinements_rdoc.html) on ruby-doc.org.
 
