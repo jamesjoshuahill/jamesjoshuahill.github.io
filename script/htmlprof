@@ -3,4 +3,4 @@
 set -e # halt script on error
 
 bundle exec jekyll build --config _config.yml,_config_test.yml
-bundle exec htmlproof ./_site --href_ignore "#"
+bundle exec htmlproofer ./_site/ --allow-hash-href

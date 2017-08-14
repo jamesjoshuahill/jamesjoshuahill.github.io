@@ -12,7 +12,7 @@ permalink: pretty
 
 # GitHub Pages settings
 lsi: false
-gems:
+plugins:
   - jekyll-sitemap
 
 # Build settings
