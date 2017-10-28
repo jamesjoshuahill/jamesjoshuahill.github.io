@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Q&A after graduating from Makers Academy"
-categories: interview
+categories: note
+published: false
 ---
 Josh graduated on the 8th of November and has signed a contract as a full-time junior web developer 4 weeks after graduation with [globaldev].
 
