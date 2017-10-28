@@ -4,6 +4,9 @@ title: "Miniseries: Meet the graduate"
 categories: talk
 ---
 I was interviewed by [Ruben Kostucki], the maestro at Makers Academy, to share my experience of changing career by learning how to code at [Makers Academy]. Enjoy the video miniseries!
+<div class="embed-container  ratio16x9  youtube">
+  <iframe src="//www.youtube.com/embed/HlPqlcNdTDE" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Advice to career changers
 
@@ -15,12 +18,6 @@ I was interviewed by [Ruben Kostucki], the maestro at Makers Academy, to share m
 
 <div class="embed-container  ratio16x9  youtube">
   <iframe src="//www.youtube.com/embed/2qPnr_0IJZ4" frameborder="0" allowfullscreen></iframe>
-</div>
-
-## Makers Academy review
-
-<div class="embed-container  ratio16x9  youtube">
-  <iframe src="//www.youtube.com/embed/HlPqlcNdTDE" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## The journery from West End theatre to software development

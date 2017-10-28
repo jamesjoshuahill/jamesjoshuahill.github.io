@@ -3,12 +3,11 @@ layout: post
 title: "Improving specs with RSpec 3"
 categories: talk
 ---
+In my second tech talk at [globaldev] I demonstrated some new features in RSpec 3 that could improve your specs: verifying doubles, composable matchers
+and test spies.
 <div class="embed-container  ratio16x9  vimeo">
     <iframe src="//player.vimeo.com/video/130534343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
-
-In my second tech talk at globaldev I demonstrated some new features in RSpec 3 that could improve your specs: verifying doubles, composable matchers
-and test spies.
 
 I have shared the [code examples] I used to demonstrate verifying doubles and
 test spies so you can try them out for yourself.

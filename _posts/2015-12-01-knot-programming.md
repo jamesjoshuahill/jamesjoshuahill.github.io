@@ -7,7 +7,6 @@ At the first Makers Alumni talks night, I told the story of how I learned how to
 knots on boats. It's a practical skill with elegant results, and many more ways
 to put you in a bind. **Disclaimer:** this talk is not about knots. It's about
 the challenges of learning by doing; about enough to keep the boat sailing.
-
 <div class="embed-container ratio16x9 slideshare">
     <iframe src="//www.slideshare.net/slideshow/embed_code/key/prjgYPtO2jtMS"
     width="595" height="485" frameborder="0" marginwidth="0" marginheight="0"

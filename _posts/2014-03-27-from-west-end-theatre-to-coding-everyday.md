@@ -3,13 +3,12 @@ layout: post
 title: "From West End theatre to coding everyday"
 categories: talk
 ---
-<div class="embed-container  ratio16x9  vimeo">
-    <iframe src="//player.vimeo.com/video/114144583" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-
 Last year I changed career and became a beginner again. As one of the first
 junior developers at [globaldev] my colleagues were curious about how I made
 the change.
+<div class="embed-container  ratio16x9  vimeo">
+    <iframe src="//player.vimeo.com/video/114144583" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
 After hitting a glass ceiling in the theatre industry I resolved to change
 course. When I met [Evgeny Shadchnev], co-founder of [Makers Academy], I was
