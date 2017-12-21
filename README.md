@@ -1,6 +1,6 @@
 # Time to robot!
 
-![Build status](https://travis-ci.org/jamesjoshuahill/jamesjoshuahill.github.io.svg?branch=master)
+[![Build status](https://travis-ci.org/jamesjoshuahill/jamesjoshuahill.github.io.svg?branch=master)](https://travis-ci.org/jamesjoshuahill/jamesjoshuahill.github.io)
 
 ## Thanks
 
