@@ -3,7 +3,7 @@ layout: post
 title: "Reviving the platform every day"
 categories: talk
 ---
-Emmanouil Kiagias and I talked at Cloud Foundry EU Summit 2018 about the disaster recovery acceptance tests for Cloud Foundry. This talk is about how we delivered this critical feature of the platform across many teams.
+Emmanouil Kiagias and I talked at [Cloud Foundry EU Summit 2018](https://cfseu18.sched.com/event/FRyM/reviving-the-platform-every-day-emmanouil-kiagias-josh-hill-pivotal) about the [disaster recovery acceptance tests for Cloud Foundry](https://github.com/cloudfoundry-incubator/disaster-recovery-acceptance-tests). This talk is about how we deliver and maintain this critical feature of the platform across many teams and time zones.
 <div class="embed-container  ratio16x9  youtube">
   <iframe src="https://www.youtube.com/embed/8osX_c1XQyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
