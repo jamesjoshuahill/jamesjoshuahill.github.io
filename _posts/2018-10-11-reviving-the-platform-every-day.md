@@ -19,6 +19,6 @@ After this talk attendees will:
 * understand DRATs and how Cloud Foundry teams test their components.
 * understand how to deliver CI tasks that can be shared by many teams in their own CI pipelines.
 
-<div class="embed-container ratio4x3 slideshare">
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/bOVYADQwwkds7Q" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<div class="embed-container ratio16x9 slideshare">
+  <iframe src="//www.slideshare.net/slideshow/embed_code/key/bOVYADQwwkds7Q" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </div>
