@@ -8,5 +8,5 @@ Josh graduated on the 8th of November and has signed a contract as a full-time j
 
 ### [Continue reading on makersacademy.com &raquo;]
 
-[globaldev]: http://globaldev.co.uk/
-[Continue reading on makersacademy.com &raquo;]: http://blog.makersacademy.com/from-west-end-theatre-to-coding-everyday
+[globaldev]: https://globaldev.co.uk/
+[Continue reading on makersacademy.com &raquo;]: https://blog.makersacademy.com/from-west-end-theatre-to-coding-everyday

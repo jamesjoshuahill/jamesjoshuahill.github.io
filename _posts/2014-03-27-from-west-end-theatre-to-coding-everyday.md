@@ -34,6 +34,6 @@ Here are the slides:
     <iframe src="//www.slideshare.net/slideshow/embed_code/42636269" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 </div>
 
-[globaldev]: http://globaldev.co.uk
-[Makers Academy]: http://www.makersacademy.com
-[Evgeny Shadchnev]: http://twitter.com/shadchnev
+[globaldev]: https://globaldev.co.uk
+[Makers Academy]: https://www.makersacademy.com
+[Evgeny Shadchnev]: https://twitter.com/shadchnev

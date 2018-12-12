@@ -8,4 +8,4 @@ I went back to Makers Academy to share my experience of starting out as a junior
     <iframe src="//www.slideshare.net/slideshow/embed_code/42636422" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </div>
 
-[globaldev]: http://globaldev.co.uk
+[globaldev]: https://globaldev.co.uk

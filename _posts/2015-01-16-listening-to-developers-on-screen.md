@@ -21,7 +21,7 @@ I worked in the world of theatre—the very business of expression—where every
 
 Developers are often quieter than average in person. But catch them on screen and you'll hear them at their loudest: the animated GIF. It goes beyond words and transcends emoji.
  
-{% include image.html src="http://i.imgur.com/p17Zs.gif" alt="Nailed it" %}
+{% include image.html src="https://i.imgur.com/p17Zs.gif" alt="Nailed it" %}
 
 ## Timing is everything
 

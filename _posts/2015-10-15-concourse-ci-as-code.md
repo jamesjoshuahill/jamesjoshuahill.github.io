@@ -12,6 +12,6 @@ We walked through turning CI into code, discuss how we avoid some "gotchas" with
 our deployments, and demonstrated a few Concourse pipelines for continuous
 delivery.
 
-[Henry Stanley]: http://www.henrystanley.com/concourse-ci-as-code/
-[LOPUG]: http://www.meetup.com/London-PaaS-User-Group-LOPUG/events/224395685/
-[Concourse]: http://concourse.ci/
+[Henry Stanley]: https://www.henrystanley.com/concourse-ci-as-code/
+[LOPUG]: https://www.meetup.com/London-PaaS-User-Group-LOPUG/events/224395685/
+[Concourse]: https://concourse.ci/

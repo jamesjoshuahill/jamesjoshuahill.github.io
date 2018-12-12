@@ -7,4 +7,4 @@ Monitoring calls to third-party APIs can reveal interesting trends and alert you
 
 ### [Continue reading on dev.venntro.com &raquo;]
 
-[Continue reading on dev.venntro.com &raquo;]: http://globaldev.co.uk/2014/07/optimising-calls-to-a-new-api-with-statsd-and-graphite/
+[Continue reading on dev.venntro.com &raquo;]: https://globaldev.co.uk/2014/07/optimising-calls-to-a-new-api-with-statsd-and-graphite/

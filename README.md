@@ -14,8 +14,8 @@
 
 * Titles set in [Source Sans Pro](https://www.google.com/fonts/specimen/Source+Sans+Pro)
 * Body set in [Lora](https://www.google.com/fonts/specimen/Lora)
-* Code set in [Inconsolata](http://levien.com/type/myfonts/inconsolata.html)
-* Help choosing colours from [clrs.cc](http://clrs.cc/) + [saturated](http://clrs.cc/saturated/)
-* Link styling based on [links.css](http://mrmrs.io/links/)
-* Responsive iFrames for embedded content, thanks to [Anders M. Andersen](http://amobil.se/2011/11/responsive-embeds/)
+* Code set in [Inconsolata](https://levien.com/type/myfonts/inconsolata.html)
+* Help choosing colours from [clrs.cc](https://clrs.cc/) + [saturated](https://clrs.cc/saturated/)
+* Link styling based on [links.css](https://mrmrs.io/links/)
+* Responsive iFrames for embedded content, thanks to [Anders M. Andersen](https://amobil.se/2011/11/responsive-embeds/)
 * Layout based on the Jekyll 2.0 default template

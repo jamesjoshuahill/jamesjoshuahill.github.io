@@ -3,10 +3,10 @@ layout: post
 title: "Q&amp;A after graduating from Makers Academy"
 author: Ruben Kostucki
 source: makersacademy.com
-source_url: http://blog.makersacademy.com/from-west-end-theatre-to-coding-everyday
+source_url: https://blog.makersacademy.com/from-west-end-theatre-to-coding-everyday
 category: note
 ---
-Josh graduated on the 8th of November and has signed a contract as a full-time junior web developer 4 weeks after graduation with [globaldev](http://globaldev.co.uk/).
+Josh graduated on the 8th of November and has signed a contract as a full-time junior web developer 4 weeks after graduation with [globaldev](https://globaldev.co.uk/).
 
 > This Q&A was first published by Ruben Kostucki on the [Makers Academy blog](https://blog.makersacademy.com/).
 

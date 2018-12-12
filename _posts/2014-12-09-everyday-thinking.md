@@ -27,5 +27,5 @@ As long as I find these four thoughts relevant I will revisit them everyday. I a
 What do you think everyday?
 
 [Chobo-Ji podcast]: https://itunes.apple.com/podcast/chobo-jis-podcast/id78149892
-[four great vows]: http://choboji.org/literature/precepts/
-[Makers Academy]: http://www.makersacademy.com
+[four great vows]: https://choboji.org/literature/precepts/
+[Makers Academy]: https://www.makersacademy.com

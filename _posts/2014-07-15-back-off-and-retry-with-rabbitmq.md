@@ -7,4 +7,4 @@ A common issue with third-party APIs is limited availability during peak hours. 
 
 ### [Continue reading on dev.venntro.com &raquo;]
 
-[Continue reading on dev.venntro.com &raquo;]: http://globaldev.co.uk/2014/07/back-off-and-retry-with-rabbitmq/
+[Continue reading on dev.venntro.com &raquo;]: https://globaldev.co.uk/2014/07/back-off-and-retry-with-rabbitmq/

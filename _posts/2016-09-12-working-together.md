@@ -8,4 +8,4 @@ I talked about my first year of pair programming at the London Ruby User Group's
     <iframe src="//www.slideshare.net/slideshow/embed_code/key/8IFLFmqMYJkLOl" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </div>
 
-Here is a copy of the slides with [my speaker notes](http://www.slideshare.net/jamesjoshuahill/working-together-v21-with-speaker-notes).
+Here is a copy of the slides with [my speaker notes](https://www.slideshare.net/jamesjoshuahill/working-together-v21-with-speaker-notes).

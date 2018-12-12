@@ -28,7 +28,7 @@ What's your favourite monkey patch in Rails? Maybe it's `"octopus".pluralize`, o
 
 ## Rolling your own
 
-`#blank?` is so handy that we missed it when we started writing a new Ruby app at [globaldev](http://www.globaldev.co.uk). Because we want to avoid dependencies whenever possible, we turned to refinements to roll our own version, tailored to our needs.
+`#blank?` is so handy that we missed it when we started writing a new Ruby app at [globaldev](https://www.globaldev.co.uk). Because we want to avoid dependencies whenever possible, we turned to refinements to roll our own version, tailored to our needs.
 
 In this case, we wanted a convenient syntax for checking parameters in a Rack app. To handle missing or empty parameters we had vanilla Ruby code like:
 
@@ -88,7 +88,7 @@ end
 # but not here
 ```
 
-[Read the documentation](http://ruby-doc.org/core-2.1.1/doc/syntax/refinements_rdoc.html) on ruby-doc.org.
+[Read the documentation](https://ruby-doc.org/core-2.1.1/doc/syntax/refinements_rdoc.html) on ruby-doc.org.
 
 With refinements we can enjoy the wonderful convenience of monkey patching Ruby with less potential for bugs. Enjoy!
 

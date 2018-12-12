@@ -17,7 +17,7 @@ With the bug confirmed, I fixed the broken test and opened a [tiny pull request]
 
 I was encouraged by this encounter and look forward to contributing to exercism.io again.
 
-[exercism.io]: http://exercism.io
+[exercism.io]: https://exercism.io
 [open issue]: https://github.com/exercism/xruby/issues/37
 [tiny pull request]: https://github.com/exercism/xruby/pull/54
 [@kytrinyx]: https://twitter.com/kytrinyx

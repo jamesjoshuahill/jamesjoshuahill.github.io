@@ -33,4 +33,4 @@ I was interviewed by [Ruben Kostucki], the maestro at Makers Academy, to share m
 </div>
 
 [Ruben Kostucki]: https://twitter.com/rubenkostucki
-[Makers Academy]: http://www.makersacademy.com
+[Makers Academy]: https://www.makersacademy.com

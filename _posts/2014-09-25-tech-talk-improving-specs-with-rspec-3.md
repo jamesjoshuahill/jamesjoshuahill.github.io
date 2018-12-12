@@ -18,5 +18,5 @@ Here are the slides:
     <iframe src="//www.slideshare.net/slideshow/embed_code/42636491" width="100%" height="455" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </div>
 
-[globaldev]: http://globaldev.co.uk
+[globaldev]: https://globaldev.co.uk
 [code examples]: https://github.com/jamesjoshuahill/rspec3-talk

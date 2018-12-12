@@ -73,9 +73,9 @@ Setting up Travis CI for a GitHub Pages site is straightforward. Check out the [
 
 Take a look at the [full source code] of this site and good luck with your deployments.
 
-[Jekyll 2.0]: http://jekyllrb.com
+[Jekyll 2.0]: https://jekyllrb.com
 [GitHub Pages]: https://pages.github.com
 [dependencies and versions]: https://pages.github.com/versions/
-[rbenv]: http://rbenv.org
+[rbenv]: https://rbenv.org
 [continuous integration tutorial]: https://jekyllrb.com/docs/deployment/automated/#continuous-integration-service
 [full source code]: https://github.com/jamesjoshuahill/jamesjoshuahill.github.io

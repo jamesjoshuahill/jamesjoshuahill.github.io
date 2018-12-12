@@ -21,5 +21,5 @@ very grateful to everyone in the globaldev team who has helped me.
 19 months ago I left the Royal Shakespeare Company. I never imagined I could
 learn so much in one year.
 
-[globaldev]: http://globaldev.co.uk
-[Sam Barnes]: http://www.thesambarnes.com
+[globaldev]: https://globaldev.co.uk
+[Sam Barnes]: https://www.thesambarnes.com

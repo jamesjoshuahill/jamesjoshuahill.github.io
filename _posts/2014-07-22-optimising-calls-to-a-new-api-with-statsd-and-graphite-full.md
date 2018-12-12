@@ -2,7 +2,7 @@
 layout: post
 title: "Optimising calls to a new API with StatsD and Graphite"
 source: globaldev.co.uk
-source_url: http://globaldev.co.uk/2014/07/optimising-calls-to-a-new-api-with-statsd-and-graphite/
+source_url: https://globaldev.co.uk/2014/07/optimising-calls-to-a-new-api-with-statsd-and-graphite/
 published: false
 ---
 
@@ -23,13 +23,13 @@ received from the API. Our tools of choice to gather and graph real-time stats
 are:
 
   - [StatsD](https://github.com/etsy/statsd) to collect and aggregate stats,
-  - [Graphite](http://graphite.wikidot.com) to generate real-time graphs, and
+  - [Graphite](https://graphite.wikidot.com) to generate real-time graphs, and
   - [Graphiti](https://github.com/paperlesspost/graphiti) as an alternative
     front-end for Graphite.
 
 We have been running with this powerful monitoring stack for a while. So,
 standing on the shoulders of the globaldev team who set it up, I could add
-tracking of the new API's status codes to a [Node.js](http://nodejs.org)
+tracking of the new API's status codes to a [Node.js](https://nodejs.org)
 application with one line of code:
 
 ```javascript

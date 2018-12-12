@@ -2,14 +2,14 @@
 layout: post
 title: "Back-off and retry with RabbitMQ"
 source: globaldev.co.uk
-source_url: http://globaldev.co.uk/2014/07/back-off-and-retry-with-rabbitmq/
+source_url: https://globaldev.co.uk/2014/07/back-off-and-retry-with-rabbitmq/
 published: false
 ---
 
 A common issue with third-party APIs is limited availability during peak hours.
 Even outside peak hours, API requests can be rejected, timeout and fail. In this
 post I'll describe a lightweight
-[exponential back-off](http://en.wikipedia.org/wiki/Exponential_backoff) and
+[exponential back-off](https://en.wikipedia.org/wiki/Exponential_backoff) and
 retry mechanism for RabbitMQ consumers.
 
 -----
@@ -26,11 +26,11 @@ to use the new
 
 Since the existing service was a little long in the tooth we decided to rewrite
 it. As a junior developer it was a great opportunity to work with two excellent
-tools for background jobs: [RabbitMQ](http://www.rabbitmq.com) and
-[Node.js](http://nodejs.org).
+tools for background jobs: [RabbitMQ](https://www.rabbitmq.com) and
+[Node.js](https://nodejs.org).
 
 We're fairly heavy users of RabbitMQ as Paul described in his recent post
-[RabbitMQ: Front the Front Line](http://globaldev.co.uk/2014/04/rabbitmq-from-the-front-line/).
+[RabbitMQ: Front the Front Line](https://globaldev.co.uk/2014/04/rabbitmq-from-the-front-line/).
 Whilst many of our consumers are Ruby-based, we've found that Node.js is well
 suited to consumers with little business logic. The event-driven
 pattern is a good match for the messaging workflow, and lends itself to fast
@@ -74,13 +74,13 @@ to RabbitMQ this raised several questions:
 
 Thankfully, RabbitMQ has a number of
 [protocol extensions](https://www.rabbitmq.com/extensions.html) that extend the
-[AMQP](http://www.amqp.org) specification. Two of these features provide all the
+[AMQP](https://www.amqp.org) specification. Two of these features provide all the
 message handling required for a wait queue: dead letter exchanges and
 per-message TTL.
 
 ## Dead letter exchanges (DLX)
 
-The term [dead letter mail](http://en.wikipedia.org/wiki/Dead_letter_mail)
+The term [dead letter mail](https://en.wikipedia.org/wiki/Dead_letter_mail)
 is still used by postal services to describe what happens to mail that cannot be
 delivered. In RabbitMQ, messages can be dead-lettered when:
 
