@@ -5,7 +5,7 @@ categories: note
 ---
 git can be confusing, especially for beginners. Even a common message: `Your branch is up-to-date with 'origin/master'` might not mean what you think. Nowadays I'm comfortable with my git workflow and rarely see an error, but I can still remember feeling completely lost.
 
-I started coaching at [Codebar](http://codebar.io) last year. It's a free workshop to get to grips with the basics of web development. I've found that sharing knowledge with a beginner is harder than understanding. Telling someone else shines a light into my blind spots. If you're near a Codebar meetup, sign up and come along! It's a friendly group and you're bound to learn something.
+I started coaching at [Codebar](https://codebar.io) last year. It's a free workshop to get to grips with the basics of web development. I've found that sharing knowledge with a beginner is harder than understanding. Telling someone else shines a light into my blind spots. If you're near a Codebar meetup, sign up and come along! It's a friendly group and you're bound to learn something.
 
 ## Where is origin/master?
 
@@ -52,15 +52,15 @@ Did you intend to checkout 'origin/new-feature' which can not be resolved as a c
 She felt lost. git threw a fatal error and questioned her _intent_, how rude? I looked back at git askance and had a rubber duck moment. This is roughly how my one-sided conversation with git went:
 
 > JOSH: Oh. I don't recognise that error. Hmmm.
-> 
+>
 > Yes, I want to checkout 'origin/new-feature'.
-> 
+>
 > That's the correct branch name, no typos.
-> 
+>
 > I can see the branch on GitHub, it's definitely there...
 >
 > TOTORO: ...
-> 
+>
 > (penny drops)
 >
 > JOSH: ...oooooh!
@@ -87,7 +87,7 @@ $ git branch -vv
 For example, I have two branches locally. I am on `git-up-to-date` branch and it is ahead of `origin/git-up-to-date`. So I have one commit to push to GitHub.
 
 ## Can you be completely up-to-date?
- 
+
 Sure. If no one else has access to the GitHub repository then you can rest easy between each fetch. When you're the only one pushing changes then you're in control and you'll be up-to-date all the time. The only gotcha is when you use another computer, then you need to fetch each time you switch.
 
 If you're collaborating with other people on GitHub, then hopefully the next time you see `Your branch is up-to-date with 'origin/master'` you'll wonder how long it's been since your last fetch. It's up to you to keep your local clone in sync and up-to-date with your team.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Q&A after graduating from Makers Academy"
+title: "Q&amp;A after graduating from Makers Academy"
 categories: note
 published: false
 ---
