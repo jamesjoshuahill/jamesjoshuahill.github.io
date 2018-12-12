@@ -77,5 +77,5 @@ Take a look at the [full source code] of this site and good luck with your deplo
 [GitHub Pages]: https://pages.github.com
 [dependencies and versions]: https://pages.github.com/versions/
 [rbenv]: http://rbenv.org
-[continuous integration tutorial]: http://jekyllrb.com/docs/continuous-integration/
+[continuous integration tutorial]: https://jekyllrb.com/docs/deployment/automated/#continuous-integration-service
 [full source code]: https://github.com/jamesjoshuahill/jamesjoshuahill.github.io
