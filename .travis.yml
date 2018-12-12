@@ -3,7 +3,7 @@ language: ruby
 cache: bundler
 rvm:
 - 2.5.3
-script: ./script/cibuild
+script: ./ci/test
 
 env:
   global:
