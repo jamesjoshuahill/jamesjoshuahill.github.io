@@ -5,7 +5,7 @@ categories: talk
 ---
 Mirah and I delivered this talk at the [Concourse London User Group](https://www.meetup.com/Concourse-London-User-Group/events/256171643/) at Pivotal London's office. We shared the mistakes and anti-patterns we discovered in our team's [Concourse CI](https://concourse-ci.org/) pipelines over the last six months.
 <div class="embed-container  ratio16x9  youtube">
-  <iframe src="https://www.youtube-nocookie.com/embed/tjLQdGj1fhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/zi9kcZr3Is8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Pipelines are the infrastructure we use to test and deliver our code. We work with them every day, but sometimes they behave in unexpected ways. We will go over common failure modes and issues we have encountered in our Concourse pipelines, and understand what we can do to prevent and solve these pain points.
