@@ -7,7 +7,7 @@ Last week I joined [exercism.io] to practise Ruby. I'm looking forward to
 iterating on the problems set out by [@kytrinyx] and co. I think the
 open-ended nature will encourage me to iterate and practise lots of small decisions.
 
-<blockquote class="twitter-tweet" lang="en"><p>Hey <a href="https://twitter.com/nodunayo">@nodunayo</a>, I just submitted my first exercism! Leave me a nitpick at <a href="https://t.co/Ctvmd5AFvH">https://t.co/Ctvmd5AFvH</a></p>&mdash; Josh Hill (@jamesjoshuahill) <a href="https://twitter.com/jamesjoshuahill/status/466967829032366080">May 15, 2014</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p>Hey <a href="https://twitter.com/nodunayo">@nodunayo</a>, I just submitted my first exercism! Leave me a nitpick at <a href="https://t.co/Ctvmd5AFvH">https://t.co/Ctvmd5AFvH</a></p>&mdash; Josh Hill (@jamesjoshuahill) May 15, 2014</blockquote>
 
 ## Free tests
 
