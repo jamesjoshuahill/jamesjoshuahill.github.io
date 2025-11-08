@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&family=Bitter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Bitter', Georgia, serif;
+            line-height: 1.7;
+            color: #3E2723;
+            background: #FAF7F2;
+            padding: 2rem 1rem;
+            max-width: 42rem;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 3rem;
+            padding: 2.5rem;
+            background: #FFFFFF;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(62, 39, 35, 0.08);
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            flex-shrink: 0;
+            border: 3px solid #D97757;
+        }
+
+        .header-content {
+            flex: 1;
+        }
+
+        h1 {
+            font-family: 'Bitter', Georgia, serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: #3E2723;
+        }
+
+        .tagline {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 1.125rem;
+            color: #6B4E3D;
+            margin-bottom: 0.5rem;
+            font-weight: 400;
+        }
+
+        .location {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.95rem;
+            color: #8B7355;
+            margin-bottom: 1rem;
+        }
+
+        .contact {
+            margin-top: 1rem;
+        }
+
+        .contact a {
+            color: #D97757;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: color 0.2s ease;
+        }
+
+        .contact a:hover {
+            color: #B85A3A;
+        }
+
+        section {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: #FFFFFF;
+            border-radius: 12px;
+            box-shadow: 0 1px 8px rgba(62, 39, 35, 0.06);
+        }
+
+        h2 {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #D97757;
+            border-bottom: 3px solid #F4E8DB;
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            color: #6B4E3D;
+        }
+
+        p {
+            color: #4A4A4A;
+            margin-bottom: 1rem;
+        }
+
+        strong {
+            color: #3E2723;
+            font-weight: 600;
+        }
+
+        .role {
+            margin-bottom: 2rem;
+        }
+
+        .role-header {
+            margin-bottom: 0.75rem;
+        }
+
+        .role-title {
+            font-weight: 600;
+            font-size: 1.125rem;
+            color: #3E2723;
+        }
+
+        .company {
+            color: #D97757;
+        }
+
+        .period {
+            color: #8B7355;
+            font-size: 0.9rem;
+        }
+
+        .role-description {
+            color: #6B4E3D;
+            font-size: 0.95rem;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+
+        ul {
+            margin-left: 1.25rem;
+            margin-top: 0.5rem;
+        }
+
+        li {
+            margin-bottom: 0.75rem;
+            color: #4A4A4A;
+            line-height: 1.7;
+        }
+
+        li::marker {
+            color: #D97757;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding: 1.5rem;
+            text-align: center;
+            color: #8B7355;
+            font-size: 0.9rem;
+            background: #FFFFFF;
+            border-radius: 12px;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 1rem;
+            }
+
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1.5rem;
+                padding: 2rem;
+            }
+
+            .profile-photo {
+                width: 100px;
+                height: 100px;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.125rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    {{ .Content }}
+</body>
+</html>

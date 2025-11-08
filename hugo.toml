@@ -1,0 +1,13 @@
+baseURL = 'https://jamesjoshuahill.github.io/'
+languageCode = 'en-us'
+title = 'Josh Hill'
+
+[params]
+  author = 'Josh Hill'
+  description = 'Senior Software Engineer'
+  github = 'jamesjoshuahill'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
