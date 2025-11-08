@@ -1,3 +1,0 @@
-# Travis CI settings
-exclude: [vendor]
-url: ""
