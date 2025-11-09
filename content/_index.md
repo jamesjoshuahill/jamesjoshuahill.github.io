@@ -14,21 +14,9 @@ title: "Josh Hill"
     </div>
 </header>
 
-<section>
-
-## About Me
+<section class="intro-quote">
 
 My favorite technology is human beings. With trust and tools for collaboration, we can think better together. I thrive in collaborative activities like pairing, workshops, and retrospectives.
-
-Throughout my career, I've worked across diverse industries—from cloud computing to fintech, education, and now renewable energy—always focusing on enabling teams to deliver complex projects with real impact.
-
-</section>
-
-<section>
-
-## Current Role
-
-I'm currently a **Senior Software Engineer at [Arenko](https://arenko.group/)**, where I work on the core APIs that manage over 1.1 GW of grid-scale batteries in Great Britain. It's rewarding to apply my technical skills to the energy transition and help build a more sustainable future.
 
 </section>
 
@@ -36,9 +24,13 @@ I'm currently a **Senior Software Engineer at [Arenko](https://arenko.group/)**,
 
 ## Career Journey
 
+### Managing Grid-Scale Batteries
+
+I'm currently a **Senior Software Engineer at [Arenko](https://arenko.group/)**, where I work on the core APIs that manage over 1.1 GW of grid-scale batteries in Great Britain. It's rewarding to apply my technical skills to the energy transition and help build a more sustainable future.
+
 ### Enabling Payment Systems at Scale
 
-From August 2020 to March 2025, I worked at **[Form3](https://www.form3.tech/)**, a real-time account-to-account payment platform. I was a major contributor to rebuilding core APIs in Go that process 10x more payments with greater reliability and lower latency at p99.
+From 2020 to 2025, I worked at **[Form3](https://www.form3.tech/)**, a real-time account-to-account payment platform. I was a major contributor to rebuilding core APIs in Go that process 10x more payments with greater reliability and lower latency at p99.
 
 During my time there, I served as Lead Engineer for 1.5 years, leading a team of 5 Senior Engineers during the build and scale-up of their multi-cloud platform. I captured project knowledge in documentation that became essential for many teams, and designed a Production Incident Response workshop that I delivered to over 130 engineers.
 
@@ -48,7 +40,7 @@ Before Form3, I spent a year as a **Software Engineering Coach at [Makers](https
 
 ### Building Cloud Platforms
 
-At **[Pivotal](https://tanzu.vmware.com/pivotal)** (February 2016 - May 2019) and **CloudCredo** (July 2015 - January 2016), I worked on cloud-native platforms and services. I led the Services Enablement team in developing and open-sourcing the On-Demand Service Broker in Go, and facilitated remote-first kick-offs for teams using modern collaboration tools.
+At **[Pivotal](https://tanzu.vmware.com/pivotal)** (2016 - 2019) and **CloudCredo** (2015 - 2016), I worked on cloud-native platforms and services. I led the Services Enablement team in developing and open-sourcing the On-Demand Service Broker in Go, and facilitated remote-first kick-offs for teams using modern collaboration tools.
 
 </section>
 
@@ -56,10 +48,10 @@ At **[Pivotal](https://tanzu.vmware.com/pivotal)** (February 2016 - May 2019) an
 
 ## What I Bring
 
-- **Technical depth**: Application development with Go, event-driven architecture, infrastructure as code, and observability
-- **Collaborative mindset**: I translate complex technical requirements into clear solutions and foster high-performing team environments
-- **Teaching and coaching**: From novice developers to staff engineers, I help people grow their skills and confidence
-- **Delivery focus**: I enable teams to ship complex projects with measurable impact
+- **Technical depth**: Application development with Go, event-driven architecture, infrastructure as code, and observability.
+- **Collaborative mindset**: I translate complex technical requirements into clear solutions and foster high-performing team environments.
+- **Teaching and coaching**: From novice developers to staff engineers, I help people grow their skills and confidence.
+- **Delivery focus**: I enable teams to ship complex projects with measurable impact.
 
 </section>
 
