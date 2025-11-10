@@ -9,6 +9,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&family=Bitter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --bg-primary: #FAF7F2;
+            --bg-secondary: #FFFFFF;
+            --text-primary: #3E2723;
+            --text-secondary: #4A4A4A;
+            --text-tertiary: #6B4E3D;
+            --text-muted: #8B7355;
+            --accent: #D97757;
+            --accent-hover: #B85A3A;
+            --border: #F4E8DB;
+            --shadow: rgba(62, 39, 35, 0.08);
+            --shadow-light: rgba(62, 39, 35, 0.06);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-primary: #1A1410;
+                --bg-secondary: #2A1F1A;
+                --text-primary: #E8DDD0;
+                --text-secondary: #C9BBB0;
+                --text-tertiary: #B09A88;
+                --text-muted: #8B7B6A;
+                --accent: #FFB394;
+                --accent-hover: #FFC4AA;
+                --border: #3D2F26;
+                --shadow: rgba(0, 0, 0, 0.3);
+                --shadow-light: rgba(0, 0, 0, 0.2);
+            }
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -18,8 +48,8 @@
         body {
             font-family: 'Bitter', Georgia, serif;
             line-height: 1.7;
-            color: #3E2723;
-            background: #FAF7F2;
+            color: var(--text-primary);
+            background: var(--bg-primary);
             padding: 2rem 1rem;
             max-width: 42rem;
             margin: 0 auto;
@@ -28,9 +58,9 @@
         header {
             margin-bottom: 3rem;
             padding: 2.5rem;
-            background: #FFFFFF;
+            background: var(--bg-secondary);
             border-radius: 16px;
-            box-shadow: 0 2px 12px rgba(62, 39, 35, 0.08);
+            box-shadow: 0 2px 12px var(--shadow);
             display: flex;
             align-items: center;
             gap: 2rem;
@@ -41,7 +71,7 @@
             height: 120px;
             border-radius: 50%;
             flex-shrink: 0;
-            border: 3px solid #D97757;
+            border: 3px solid var(--accent);
         }
 
         .header-content {
@@ -53,13 +83,13 @@
             font-size: 2.5rem;
             font-weight: 700;
             margin-bottom: 0.5rem;
-            color: #3E2723;
+            color: var(--text-primary);
         }
 
         .tagline {
             font-family: 'Work Sans', sans-serif;
             font-size: 1.125rem;
-            color: #6B4E3D;
+            color: var(--text-tertiary);
             margin-bottom: 0.5rem;
             font-weight: 400;
         }
@@ -67,7 +97,7 @@
         .location {
             font-family: 'Work Sans', sans-serif;
             font-size: 0.95rem;
-            color: #8B7355;
+            color: var(--text-muted);
             margin-bottom: 1rem;
         }
 
@@ -76,7 +106,7 @@
         }
 
         .contact a {
-            color: #D97757;
+            color: var(--accent);
             text-decoration: none;
             font-size: 0.95rem;
             font-weight: 600;
@@ -84,15 +114,15 @@
         }
 
         .contact a:hover {
-            color: #B85A3A;
+            color: var(--accent-hover);
         }
 
         section {
             margin-bottom: 3rem;
             padding: 2rem;
-            background: #FFFFFF;
+            background: var(--bg-secondary);
             border-radius: 12px;
-            box-shadow: 0 1px 8px rgba(62, 39, 35, 0.06);
+            box-shadow: 0 1px 8px var(--shadow-light);
         }
 
         section.intro-quote {
@@ -103,7 +133,7 @@
             font-family: 'Bitter', Georgia, serif;
             font-size: 1.35rem;
             line-height: 1.6;
-            color: #3E2723;
+            color: var(--text-primary);
             font-weight: 500;
         }
 
@@ -112,8 +142,8 @@
             font-size: 1.75rem;
             font-weight: 600;
             margin-bottom: 1.5rem;
-            color: #D97757;
-            border-bottom: 3px solid #F4E8DB;
+            color: var(--accent);
+            border-bottom: 3px solid var(--border);
             padding-bottom: 0.5rem;
         }
 
@@ -123,17 +153,31 @@
             font-weight: 600;
             margin-top: 2rem;
             margin-bottom: 0.75rem;
-            color: #6B4E3D;
+            color: var(--text-tertiary);
         }
 
         p {
-            color: #4A4A4A;
+            color: var(--text-secondary);
             margin-bottom: 1rem;
         }
 
         strong {
-            color: #3E2723;
+            color: var(--text-primary);
             font-weight: 600;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: underline;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--accent-hover);
+        }
+
+        a:visited {
+            color: var(--accent);
         }
 
         .role {
@@ -147,20 +191,20 @@
         .role-title {
             font-weight: 600;
             font-size: 1.125rem;
-            color: #3E2723;
+            color: var(--text-primary);
         }
 
         .company {
-            color: #D97757;
+            color: var(--accent);
         }
 
         .period {
-            color: #8B7355;
+            color: var(--text-muted);
             font-size: 0.9rem;
         }
 
         .role-description {
-            color: #6B4E3D;
+            color: var(--text-tertiary);
             font-size: 0.95rem;
             font-style: italic;
             margin-bottom: 0.5rem;
@@ -173,21 +217,21 @@
 
         li {
             margin-bottom: 0.75rem;
-            color: #4A4A4A;
+            color: var(--text-secondary);
             line-height: 1.7;
         }
 
         li::marker {
-            color: #D97757;
+            color: var(--accent);
         }
 
         footer {
             margin-top: 3rem;
             padding: 1.5rem;
             text-align: center;
-            color: #8B7355;
+            color: var(--text-muted);
             font-size: 0.9rem;
-            background: #FFFFFF;
+            background: var(--bg-secondary);
             border-radius: 12px;
         }
 
