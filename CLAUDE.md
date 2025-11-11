@@ -36,18 +36,19 @@ Personal career website for Josh Hill, showcasing a career in software engineeri
 - Card-based sections with rounded corners (12-16px border radius)
 - Soft shadows for depth
 - Profile photo with terracotta border
+- Illustrated collaboration scene (floating right on desktop, centered on mobile)
 - Mobile-responsive design
 
 ## Content Structure
 
-1. **Header** - Name, title, location (Remote, UK), GitHub link, profile photo
-2. **About Me** - Human-centered philosophy and career overview
-3. **Current Role** - Arenko (grid-scale battery management)
-4. **Career Journey**
-   - Enabling Payment Systems at Scale (Form3)
+1. **Header** - Name, location (Hampshire, UK), email and GitHub link, profile photo
+2. **Opening Statement** - Human-centered philosophy (three paragraphs with collaboration illustration)
+3. **Career Journey**
+   - Managing Grid-Scale Batteries (Arenko)
+   - Enabling UK Payments at Scale (Form3)
    - Coaching Career Changers (Makers)
    - Building Cloud Platforms (Pivotal, CloudCredo)
-5. **What I Bring** - Key strengths and technical depth
+4. **What I Bring** - Key strengths and technical depth
 
 ## Development
 
@@ -63,6 +64,7 @@ hugo server --buildDrafts --bind 0.0.0.0
 - `hugo.toml` - Site configuration
 - `content/_index.md` - Homepage content (markdown with HTML for layout)
 - `layouts/index.html` - Homepage template with embedded CSS
+- `static/whiteboard_collaboration.png` - Collaboration illustration
 - `.github/workflows/deploy.yml` - GitHub Actions deployment workflow
 - `.gitignore` - Excludes build artifacts (`public/`, `.hugo_build.lock`)
 
@@ -88,12 +90,16 @@ Automated via GitHub Actions on every push to master:
 
 ## Design Decisions
 
+- **Minimal header** - Removed "Software Engineer" tagline for cleaner presentation
+- **Collaboration illustration** - Added warm-toned illustrated scene of whiteboard workshop to reinforce human-centered values
+- **Split paragraphs** - Opening statement and key sections broken into shorter paragraphs for better rhythm
+- **No Oxford commas** - Consistent British English style throughout
 - **No redundancy mentions** - Removed references to being made redundant from Form3 and Makers
 - **No dating industry** - Removed Venntro and all dating platform references
 - **No CloudCredo link** - Company no longer exists, kept as text only
 - **Company links** - All active companies have links to their websites
-- **Location added** - "Remote, UK" for context
-- **Section rename** - "Coaching Career Changers" better describes the Makers experience
+- **Location updated** - "Hampshire, UK" for accuracy
+- **Pivotal IPO mention** - Added concrete achievement (2018 IPO) to demonstrate platform value
 
 ## Future Enhancements
 
@@ -107,3 +113,4 @@ Potential additions:
 ---
 
 Built with Claude Code on 2025-11-08
+Updated 2025-11-11 - Added collaboration illustration and content refinements
