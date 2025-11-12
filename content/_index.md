@@ -15,13 +15,13 @@ title: "Josh Hill"
 
 <section class="intro-quote">
 
-<img src="/whiteboard_collaboration.png" alt="Collaborative workshop at a whiteboard" class="collaboration-illustration">
+<img src="/remote_team_meeting.png" alt="Remote team collaboration" class="collaboration-illustration">
 
 My favorite technology is human beings.
 
 With trust and tools for collaboration, we can think better together.
 
-I thrive in collaborative activities like pairing, workshops and retrospectives.
+I thrive in collaborative activities like pair programming, workshops and retrospectives.
 
 </section>
 
@@ -48,6 +48,8 @@ I changed career by learning to code at **[Makers](https://makers.tech/)** in 20
 I delivered over 100 workshop sessions covering everything from debugging to test-driven development, domain modeling and agile team practices. The experience of helping people grow into their potential as engineers remains one of the most challenging and fulfilling parts of my career.
 
 ### Building Cloud Platforms
+
+<img src="/whiteboard_collaboration.png" alt="Collaborative workshop at a whiteboard" class="collaboration-illustration">
 
 At **[Pivotal](https://tanzu.vmware.com/pivotal)** (2016 - 2019) and **CloudCredo** (2015 - 2016), I was immersed in Extreme Programming (XP) practices including pair programming, test-driven development and Lean Product principles. Pivotal's successful IPO in 2018 demonstrated the value of Cloud Foundry.
 
