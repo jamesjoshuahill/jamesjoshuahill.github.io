@@ -21,7 +21,7 @@ My favorite technology is human beings.
 
 With trust and tools for collaboration, we can think better together.
 
-I thrive in collaborative activities like pair programming, workshops and retrospectives.
+I thrive in collaborative activities like pairing, workshops and retrospectives.
 
 </section>
 
@@ -31,9 +31,9 @@ I thrive in collaborative activities like pair programming, workshops and retros
 
 ### Managing Grid-Scale Batteries
 
-I'm currently a **Senior Software Engineer at [Arenko](https://arenko.group/)**, where I work on the core APIs that manage over 1.1 GW of grid-scale batteries in Great Britain.
+I'm currently a **Senior Software Engineer at [Arenko](https://arenko.group/)**, where I work on the core APIs that operate over 1 GW of grid-scale batteries in Great Britain.
 
-It's rewarding to apply my technical skills in real-time critical systems to the energy transition and help build a more sustainable future.
+I'm extending the platform to integrate with more customers and more renewable assets. It's rewarding to contribute to the energy transition and a more sustainable future.
 
 ### Enabling UK Payments at Scale
 
@@ -63,11 +63,15 @@ I worked on the cloud-native PaaS and services, led the Services Enablement team
 
 - **Technical depth**: Application development with Go, event-driven architecture, infrastructure as code and observability.
 - **Collaborative mindset**: I translate complex technical requirements into clear solutions and foster high-performing team environments.
-- **Teaching and coaching**: From novice developers to staff engineers, I help people grow their skills and confidence.
+- **Training and coaching**: From novice developers to staff engineers, I help people grow their skills and confidence.
 - **Delivery focus**: I enable teams to ship complex projects with measurable impact.
 
 </section>
 
 <footer>
-    <p>© 2025 Josh Hill</p>
+
+## Colophon
+
+This design features Bitter and Work Sans typefaces, warm earth tones and illustrations generated from real photos with Nana Banana. Built with Hugo, hosted on GitHub Pages, vibe-coded with Claude Code. [Source on GitHub](https://github.com/jamesjoshuahill/jamesjoshuahill.github.io).
+
 </footer>
