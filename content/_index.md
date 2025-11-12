@@ -70,8 +70,6 @@ I worked on the cloud-native PaaS and services, led the Services Enablement team
 
 <footer>
 
-## Colophon
-
-This design features Bitter and Work Sans typefaces, warm earth tones and illustrations generated from real photos with Nana Banana. Built with Hugo, hosted on GitHub Pages, vibe-coded with Claude Code. [Source on GitHub](https://github.com/jamesjoshuahill/jamesjoshuahill.github.io).
+[Source on GitHub](https://github.com/jamesjoshuahill/jamesjoshuahill.github.io)
 
 </footer>

@@ -61,6 +61,8 @@ hugo server --buildDrafts --bind 0.0.0.0
 ```
 
 ### File Structure
+- `README.md` - Brief greeting and quick start guide for visitors
+- `CLAUDE.md` - Detailed documentation and design decisions (this file)
 - `hugo.toml` - Site configuration
 - `content/_index.md` - Homepage content (markdown with HTML for layout)
 - `layouts/index.html` - Homepage template with embedded CSS
@@ -91,7 +93,7 @@ Automated via GitHub Actions on every push to master:
 ## Design Decisions
 
 - **Minimal header** - Removed "Software Engineer" tagline for cleaner presentation
-- **Collaboration illustration** - Added warm-toned illustrated scene of whiteboard workshop to reinforce human-centered values
+- **Collaboration illustration** - Added warm-toned illustrated scene of whiteboard workshop to reinforce human-centered values (generated from real photos with Nana Banana)
 - **Split paragraphs** - Opening statement and key sections broken into shorter paragraphs for better rhythm
 - **No Oxford commas** - Consistent British English style throughout
 - **No redundancy mentions** - Removed references to being made redundant from Form3 and Makers
@@ -114,3 +116,4 @@ Potential additions:
 
 Built with Claude Code on 2025-11-08
 Updated 2025-11-11 - Added collaboration illustration and content refinements
+Updated 2025-11-12 - Added README.md for public visitors
