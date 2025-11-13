@@ -31,6 +31,8 @@ Personal career website for Josh Hill, showcasing a career in software engineeri
 - **Headings (H1, H2, H3):** Bitter (serif) - gives gravitas and warm character
 - **Body text:** Work Sans (sans-serif) - clean and easy to read
 - Traditional pairing approach for professional yet warm feel
+- **Font delivery:** Bunny Fonts CDN (privacy-friendly, GDPR-compliant alternative to Google Fonts)
+- **Increased text sizes:** All text sizes increased for better readability (body: 1.125rem, headings scaled proportionally)
 
 ### Layout
 - Card-based sections with rounded corners (12-16px border radius)
@@ -117,3 +119,4 @@ Potential additions:
 Built with Claude Code on 2025-11-08
 Updated 2025-11-11 - Added collaboration illustration and content refinements
 Updated 2025-11-12 - Added README.md for public visitors
+Updated 2025-11-13 - Switched to Bunny Fonts CDN and increased text sizes for better readability

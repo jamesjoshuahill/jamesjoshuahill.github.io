@@ -6,7 +6,7 @@ title: "Josh Hill"
     <img src="https://1.gravatar.com/avatar/7cecbb79a050705e3c95602e24a5ea9b33dd23888c85b6b1c19c8ebba0896730?size=400" alt="Josh Hill" class="profile-photo">
     <div class="header-content">
         <h1>Josh Hill</h1>
-        <p class="location">Hampshire, UK</p>
+        <p class="location">South coast, UK</p>
         <div class="contact">
             <a href="mailto:hay.dawns-8y@icloud.com">Email</a> • <a href="https://github.com/jamesjoshuahill">GitHub</a>
         </div>
@@ -70,6 +70,6 @@ I worked on the cloud-native PaaS and services, led the Services Enablement team
 
 <footer>
 
-[Source on GitHub](https://github.com/jamesjoshuahill/jamesjoshuahill.github.io)
+[View source on GitHub](https://github.com/jamesjoshuahill/jamesjoshuahill.github.io)
 
 </footer>
