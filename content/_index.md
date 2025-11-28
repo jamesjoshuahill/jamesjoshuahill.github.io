@@ -31,9 +31,9 @@ I thrive in collaborative activities like pairing, workshops and retrospectives.
 
 ### Managing Grid-Scale Batteries
 
-I'm currently a **Senior Software Engineer at [Arenko](https://arenko.group/)**, where I work on the core APIs that operate over 1 GW of grid-scale batteries in Great Britain.
+In 2025, I was a **Senior Software Engineer at [Arenko](https://arenko.group/)**, where I worked on the core APIs that operate over 1 GW of grid-scale batteries in Great Britain.
 
-I'm extending the platform to integrate with more customers and more renewable assets. It's rewarding to contribute to the energy transition and a more sustainable future.
+I extended the platform to integrate with more customers and more renewable assets. It was rewarding to contribute to the energy transition and a more sustainable future.
 
 ### Enabling UK Payments at Scale
 
@@ -59,12 +59,12 @@ I worked on the cloud-native PaaS and services, led the Services Enablement team
 
 <section>
 
-## What I Bring
+## What I Enjoy
 
 - **Technical depth**: Application development with Go, event-driven architecture, infrastructure as code and observability.
-- **Collaborative mindset**: I translate complex technical requirements into clear solutions and foster high-performing team environments.
-- **Training and coaching**: From novice developers to staff engineers, I help people grow their skills and confidence.
-- **Delivery focus**: I enable teams to ship complex projects with measurable impact.
+- **Collaborative mindset**: Translating complex technical requirements into clear solutions and fostering high-performing team environments.
+- **Training and coaching**: From novice developers to staff engineers, helping people grow their skills and confidence.
+- **Delivery focus**: Enabling teams to ship complex projects with measurable impact.
 
 </section>
 
