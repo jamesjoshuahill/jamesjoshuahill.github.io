@@ -1,0 +1,50 @@
+{{ define "head" }}
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+    // Initialize Mermaid with theme based on color scheme
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: prefersDark ? 'dark' : 'default',
+        fontFamily: '"Work Sans", sans-serif',
+        themeVariables: prefersDark ? {
+            primaryColor: '#3D2F26',
+            primaryTextColor: '#E8DDD0',
+            primaryBorderColor: '#FFB394',
+            lineColor: '#8B7B6A',
+            secondaryColor: '#2A1F1A',
+            tertiaryColor: '#1A1410',
+            fontFamily: '"Work Sans", sans-serif'
+        } : {
+            primaryColor: '#FAF7F2',
+            primaryTextColor: '#3E2723',
+            primaryBorderColor: '#D97757',
+            lineColor: '#8B7355',
+            secondaryColor: '#FFFFFF',
+            tertiaryColor: '#F4E8DB',
+            fontFamily: '"Work Sans", sans-serif'
+        }
+    });
+</script>
+{{ end }}
+
+{{ define "main" }}
+<nav>
+    <a href="/playbook/">← Playbook</a>
+</nav>
+
+<article>
+    <section>
+        <h1>{{ .Title }}</h1>
+        <p class="playbook-meta">{{ .Date.Format "2 January 2006" }}</p>
+    </section>
+
+    <section>
+        {{ .Content }}
+    </section>
+</article>
+
+<footer>
+    <p><a href="mailto:hay.dawns-8y@icloud.com">Email</a> • <a href="https://github.com/jamesjoshuahill">GitHub</a></p>
+</footer>
+{{ end }}

@@ -8,7 +8,7 @@ title: "Josh Hill"
         <h1>Josh Hill</h1>
         <p class="location">South coast, UK</p>
         <div class="contact">
-            <a href="mailto:hay.dawns-8y@icloud.com">Email</a> • <a href="https://github.com/jamesjoshuahill">GitHub</a>
+            <a href="/playbook/">Playbook</a> • <a href="mailto:hay.dawns-8y@icloud.com">Email</a> • <a href="https://github.com/jamesjoshuahill">GitHub</a>
         </div>
     </div>
 </header>
@@ -70,6 +70,6 @@ I worked on the cloud-native PaaS and services, led the Services Enablement team
 
 <footer>
 
-[View source on GitHub](https://github.com/jamesjoshuahill/jamesjoshuahill.github.io)
+[Playbook](/playbook/) • [Email](mailto:hay.dawns-8y@icloud.com) • [View source on GitHub](https://github.com/jamesjoshuahill/jamesjoshuahill.github.io)
 
 </footer>

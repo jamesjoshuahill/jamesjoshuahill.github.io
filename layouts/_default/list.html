@@ -1,0 +1,28 @@
+{{ define "main" }}
+<nav>
+    <a href="/">← Home</a>
+</nav>
+
+<section>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="playbook-summary">{{ . }}</p>{{ end }}
+
+    {{ if .Pages }}
+    <ul class="playbook-list">
+        {{ range .Pages }}
+        <li>
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p class="playbook-meta">{{ .Date.Format "2 January 2006" }}</p>
+            {{ with .Params.summary }}<p class="playbook-summary">{{ . }}</p>{{ end }}
+        </li>
+        {{ end }}
+    </ul>
+    {{ else }}
+    <p>Nothing yet.</p>
+    {{ end }}
+</section>
+
+<footer>
+    <p><a href="mailto:hay.dawns-8y@icloud.com">Email</a> • <a href="https://github.com/jamesjoshuahill">GitHub</a></p>
+</footer>
+{{ end }}

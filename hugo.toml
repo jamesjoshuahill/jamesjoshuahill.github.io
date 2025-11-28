@@ -7,6 +7,9 @@ title = 'Josh Hill'
   description = 'Personal website'
   github = 'jamesjoshuahill'
 
+[permalinks]
+  playbook = '/playbook/:year-:month-:day-:slugorfilename/'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
