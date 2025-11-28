@@ -38,19 +38,24 @@ Personal career website for Josh Hill, showcasing a career in software engineeri
 - Card-based sections with rounded corners (12-16px border radius)
 - Soft shadows for depth
 - Profile photo with terracotta border
-- Illustrated collaboration scene (floating right on desktop, centered on mobile)
+- Illustrated collaboration scenes (floating right on desktop, centered on mobile)
 - Mobile-responsive design
+- Dark mode support via `prefers-color-scheme`
 
 ## Content Structure
 
-1. **Header** - Name, location (Hampshire, UK), email and GitHub link, profile photo
+### Homepage
+1. **Header** - Name, location (South coast, UK), email and GitHub link, profile photo
 2. **Opening Statement** - Human-centered philosophy (three paragraphs with collaboration illustration)
 3. **Career Journey**
    - Managing Grid-Scale Batteries (Arenko)
    - Enabling UK Payments at Scale (Form3)
    - Coaching Career Changers (Makers)
    - Building Cloud Platforms (Pivotal, CloudCredo)
-4. **What I Bring** - Key strengths and technical depth
+4. **What I Enjoy** - Key strengths and technical depth
+
+### Playbook
+A section for practical guides and lessons learned from building and running software. Supports Mermaid diagrams for technical illustrations.
 
 ## Development
 
@@ -60,21 +65,42 @@ Personal career website for Josh Hill, showcasing a career in software engineeri
 hugo server --buildDrafts --bind 0.0.0.0
 
 # Visit http://localhost:1313/
+
+# Create a new playbook post
+hugo new playbook/my-post.md
 ```
 
 ### File Structure
-- `README.md` - Brief greeting and quick start guide for visitors
-- `CLAUDE.md` - Detailed documentation and design decisions (this file)
-- `hugo.toml` - Site configuration
-- `content/_index.md` - Homepage content (markdown with HTML for layout)
-- `layouts/index.html` - Homepage template with embedded CSS
-- `static/whiteboard_collaboration.png` - Collaboration illustration
-- `.github/workflows/deploy.yml` - GitHub Actions deployment workflow
-- `.gitignore` - Excludes build artifacts (`public/`, `.hugo_build.lock`)
+```
+.
+├── .github/workflows/deploy.yml    # GitHub Actions deployment
+├── .gitignore                      # Excludes public/, .hugo_build.lock
+├── README.md                       # Brief greeting for visitors
+├── CLAUDE.md                       # Design decisions (this file)
+├── hugo.toml                       # Site configuration
+├── archetypes/
+│   └── default.md                  # Template for new posts
+├── content/
+│   ├── _index.md                   # Homepage content
+│   └── playbook/
+│       └── _index.md               # Playbook section index
+├── layouts/
+│   ├── index.html                  # Homepage (extends baseof.html)
+│   ├── _default/
+│   │   ├── baseof.html             # Base template with all CSS
+│   │   ├── list.html               # Playbook listing
+│   │   └── single.html             # Individual playbook post
+│   └── shortcodes/
+│       └── mermaid.html            # Mermaid diagram shortcode
+└── static/
+    ├── favicon.svg                 # Browser icon
+    ├── remote_team_meeting.png     # Intro section illustration
+    └── whiteboard_collaboration.png # Career section illustration
+```
 
 ### Making Changes
-1. Edit content in `content/_index.md`
-2. Edit design in `layouts/index.html`
+1. Edit content in `content/_index.md` or `content/playbook/`
+2. Edit design in `layouts/_default/baseof.html` (CSS is consolidated here)
 3. Test locally with `hugo server`
 4. Commit and push to master branch
 5. GitHub Actions automatically builds and deploys
@@ -95,20 +121,19 @@ Automated via GitHub Actions on every push to master:
 ## Design Decisions
 
 - **Minimal header** - Removed "Software Engineer" tagline for cleaner presentation
-- **Collaboration illustration** - Added warm-toned illustrated scene of whiteboard workshop to reinforce human-centered values (generated from real photos with Nana Banana)
+- **Collaboration illustrations** - Warm-toned illustrated scenes to reinforce human-centered values (generated from real photos with Nana Banana)
 - **Split paragraphs** - Opening statement and key sections broken into shorter paragraphs for better rhythm
 - **No Oxford commas** - Consistent British English style throughout
 - **No redundancy mentions** - Removed references to being made redundant from Form3 and Makers
 - **No dating industry** - Removed Venntro and all dating platform references
 - **No CloudCredo link** - Company no longer exists, kept as text only
 - **Company links** - All active companies have links to their websites
-- **Location updated** - "Hampshire, UK" for accuracy
 - **Pivotal IPO mention** - Added concrete achievement (2018 IPO) to demonstrate platform value
+- **Consolidated CSS** - All styles in baseof.html; homepage extends base template
 
 ## Future Enhancements
 
 Potential additions:
-- Blog section for technical writing
 - Projects showcase
 - Speaking engagements/talks page
 - Contact form
@@ -120,3 +145,5 @@ Built with Claude Code on 2025-11-08
 Updated 2025-11-11 - Added collaboration illustration and content refinements
 Updated 2025-11-12 - Added README.md for public visitors
 Updated 2025-11-13 - Switched to Bunny Fonts CDN and increased text sizes for better readability
+Updated 2025-11-28 - Added playbook section with Mermaid diagram support
+Updated 2025-11-28 - Consolidated CSS into baseof.html, updated documentation
