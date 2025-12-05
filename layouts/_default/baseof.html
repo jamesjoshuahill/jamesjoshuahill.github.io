@@ -131,21 +131,6 @@
             fill: var(--accent-hover);
         }
 
-        .header-nav {
-            margin-top: 0.75rem;
-        }
-
-        .header-nav a {
-            color: var(--accent);
-            text-decoration: none;
-            font-size: 1.05rem;
-            transition: color 0.2s ease;
-        }
-
-        .header-nav a:hover {
-            color: var(--accent-hover);
-        }
-
         section {
             margin-bottom: 3rem;
             padding: 2rem;
@@ -214,36 +199,6 @@
 
         a:visited {
             color: var(--accent);
-        }
-
-        .role {
-            margin-bottom: 2rem;
-        }
-
-        .role-header {
-            margin-bottom: 0.75rem;
-        }
-
-        .role-title {
-            font-weight: 600;
-            font-size: 1.25rem;
-            color: var(--text-primary);
-        }
-
-        .company {
-            color: var(--accent);
-        }
-
-        .period {
-            color: var(--text-muted);
-            font-size: 1rem;
-        }
-
-        .role-description {
-            color: var(--text-tertiary);
-            font-size: 1.05rem;
-            font-style: italic;
-            margin-bottom: 0.5rem;
         }
 
         ul {
@@ -436,5 +391,6 @@
 </head>
 <body>
     {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
 </body>
 </html>
