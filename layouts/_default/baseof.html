@@ -97,9 +97,14 @@
 
         .contact {
             margin-top: 1rem;
+            display: flex;
+            gap: 1.5rem;
         }
 
         .contact a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
             color: var(--accent);
             text-decoration: none;
             font-size: 1.05rem;
@@ -108,6 +113,36 @@
         }
 
         .contact a:hover {
+            color: var(--accent-hover);
+        }
+
+        .contact a svg.icon {
+            width: 1.25rem;
+            height: 1.25rem;
+            flex-shrink: 0;
+        }
+
+        .contact a svg.icon path {
+            fill: var(--accent);
+            transition: fill 0.2s ease;
+        }
+
+        .contact a:hover svg.icon path {
+            fill: var(--accent-hover);
+        }
+
+        .header-nav {
+            margin-top: 0.75rem;
+        }
+
+        .header-nav a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 1.05rem;
+            transition: color 0.2s ease;
+        }
+
+        .header-nav a:hover {
             color: var(--accent-hover);
         }
 
@@ -244,8 +279,25 @@
             text-decoration: none;
         }
 
+        footer a svg.icon {
+            display: inline-block;
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-bottom: 0.25rem;
+            margin-right: 0.5rem;
+            vertical-align: middle;
+        }
+
+        footer a svg.icon path {
+            fill: var(--accent)
+        }
+
         footer a:hover {
             color: var(--accent-hover);
+        }
+
+        footer a:hover svg.icon path {
+            fill: var(--accent-hover)
         }
 
         /* Navigation */
@@ -269,7 +321,7 @@
         .playbook-meta {
             color: var(--text-muted);
             font-size: 1rem;
-            margin-bottom: 1.5rem;
+            margin-bottom: 0;
         }
 
         .playbook-list {

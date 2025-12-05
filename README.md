@@ -4,7 +4,7 @@ Hi, I'm Josh Hill. This site describes my journey through software engineering a
 
 **Live site:** https://jamesjoshuahill.github.io/
 
-Vibe-coded with Claude Code.
+Mostly vibe-coded with Claude Code.
 
 ## Quick Start
 
@@ -12,10 +12,13 @@ Vibe-coded with Claude Code.
 # Install Hugo
 brew install hugo
 
-# Run locally
+# Run development server
 hugo server --buildDrafts --bind 0.0.0.0
 
 # Visit http://localhost:1313/
+
+# Create a new post
+hugo new playbook/my-title.md
 ```
 
 ## Stack
